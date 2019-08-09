@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <site_url>https://greatwar.ucalgary.ca</site_url>
+    <fileupload_url>https://greatwar.ucalgary.ca/wp-content/uploads</fileupload_url>
+    <wpv_database_version>2080400</wpv_database_version>
+    <views>
+        <view>
+            <ID>4323</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Credit View</post_title>
+            <post_name>credit-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://greatwar.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                    </metasections-hep-show-hide>
+                    <disable_view_wrapper>true</disable_view_wrapper>
+                    <post_types>
+                        <post_type>credit</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-credit-view&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Credit View</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Credit View</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>959</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Teachers Resources View</post_title>
+            <post_name>teachers-resources-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>paged</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>builtin</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                        <pause_on_hover></pause_on_hover>
+                        <manage_history>on</manage_history>
+                        <tolerance>0</tolerance>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>off</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <post_types>
+                        <post_type>teacher-resource</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;Loop item in Teachers Resources View&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+&lt;ul class=&quot;pagination&quot;&gt;
+	&lt;li class=&quot;page-item&quot;&gt;[wpv-pager-prev-page][wpml-string context=&quot;wpv-views&quot;]Previous[/wpml-string][/wpv-pager-prev-page]&lt;/li&gt;
+	&lt;li class=&quot;page-item&quot;&gt;[wpv-pager-next-page][wpml-string context=&quot;wpv-views&quot;]Next[/wpml-string][/wpv-pager-next-page]&lt;/li&gt;
+&lt;/ul&gt;[wpv-pager-nav-links output=&quot;bootstrap&quot;]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Teachers Resources View</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[types field=&quot;title-tr&quot;][/types]</real_field-0>
+                        <real_field-1>[types field=&quot;description-tr&quot;][/types]</real_field-1>
+                        <real_field-2>[types field=&quot;file-upload-tr&quot;][/types]</real_field-2>
+                        <real_field-3>[types field=&quot;grade-tr&quot;][/types]</real_field-3>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Teachers Resources View</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>943</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]
+</post_content>
+            <post_title>Explore</post_title>
+            <post_name>explore</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>&lt;noscript&gt;
+  &lt;style&gt;
+  	.explore-main-filter{display:none;visability:none;}
+  &lt;/style&gt;
+  &lt;div class=&quot;container-fluid brick text-cta&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+        	&lt;h2&gt;Search Translations:&lt;/h2&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/noscript&gt;
+
+&lt;div class=&quot;container-fluid brick text-cta explore-main-filter&quot; disabled=&quot;disabled&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;row-md-height&quot;&gt;
+          &lt;div class=&quot;col-md-3 col-md-height col-md-middle vspacer-xs vspacer-sm headline&quot;&gt;
+            &lt;h1 tabindex=&quot;0&quot; class=&quot;focus&quot; id=&quot;translation-title&quot;&gt;Translations&lt;/h1&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;col-md-9 col-md-height col-md-middle description&quot;&gt;
+
+            &lt;div class=&quot;row&quot;&gt;
+
+              &lt;div class=&quot;container-fluid brick more-info&quot;&gt;
+              	&lt;div class=&quot;row&quot;&gt;
+              		&lt;div class=&quot;container&quot;&gt;
+              			&lt;div class=&quot;row myBtnContainer&quot;&gt;
+              				&lt;div class=&quot;col-xs-12 col-sm-6 col-lg-3 vspacer-xs vspacer-sm vspacer-md btn-filter&quot; id=&quot;MHAE&quot; tabindex=&quot;0&quot;&gt;
+              					&lt;div class=&quot;row media&quot; &gt;
+              						&lt;div class=&quot;col-sm-12&quot;&gt;
+              							&lt;div class=&quot;media-left&quot;&gt;&lt;span class=&quot;far fa-circle fa-2x maroon vcenter MHAE&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+              							&lt;div class=&quot;media-body&quot;&gt;
+              								&lt;!--&lt;h3&gt;Mobilizing Hatred Against the Enemy&lt;/h3&gt; --&gt;
+                                          &lt;h3&gt;[types field=&#039;mhae-filter&#039; item=&#039;$current_page&#039;][/types]&lt;/h3&gt;
+                                          &lt;div id=&quot;MHAEintro&quot; style=&quot;display: none;&quot;&gt;[types field=&#039;mobilizing-hatred-against-the-enemy-introductory-text&#039;][/types]&lt;/div&gt;
+              							&lt;/div&gt;
+              						&lt;/div&gt;
+              					&lt;/div&gt;
+              				&lt;/div&gt;
+              				&lt;div class=&quot;col-xs-12 col-sm-6 col-lg-3 vspacer-xs vspacer-sm vspacer-md btn-filter&quot; id=&quot;IN&quot; tabindex=&quot;0&quot;&gt;
+              					&lt;div class=&quot;row media&quot; &gt;
+              						&lt;div class=&quot;col-sm-12&quot;&gt;
+              							&lt;div class=&quot;media-left&quot;&gt;&lt;span class=&quot;far fa-circle fa-2x chocolate IN&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+              							&lt;div class=&quot;media-body&quot;&gt;
+              								&lt;!--&lt;h3&gt;Influencing Neutrals&lt;/h3&gt;--&gt;
+                                          &lt;h3&gt;[types field=&#039;in-filter&#039; item=&#039;$current_page&#039;][/types]&lt;/h3&gt;
+                                          &lt;div id=&quot;INintro&quot; style=&quot;display: none;&quot;&gt;[types field=&#039;influencing-neutrals-introductory-text&#039;][/types]&lt;/div&gt;
+              							&lt;/div&gt;
+              						&lt;/div&gt;
+              					&lt;/div&gt;
+              				&lt;/div&gt;
+              				&lt;div class=&quot;clearfix visible-sm-block visible-md-block&quot;&gt;&lt;/div&gt;
+              				&lt;div class=&quot;col-xs-12 col-sm-6 col-lg-3 vspacer-xs vspacer-sm vspacer-md btn-filter&quot; id=&quot;DE&quot;&gt;
+              					&lt;div class=&quot;row media&quot;&gt;
+              						&lt;div tabindex=&quot;0&quot; class=&quot;col-sm-12&quot;&gt;
+              							&lt;div class=&quot;media-left&quot;&gt;&lt;span class=&quot;far fa-circle fa-2x ruby DE&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+              							&lt;div class=&quot;media-body&quot;&gt;
+              								&lt;!-- &lt;h3&gt;Demoralizing the Enemy&lt;/h3&gt; --&gt;
+                                          &lt;h3&gt;[types field=&#039;de-filter&#039; item=&#039;$current_page&#039;][/types]&lt;/h3&gt;
+                                          &lt;div id=&quot;MPAHintro&quot; style=&quot;display: none;&quot;&gt;[types field=&#039;maintaining-peace-with-allies-and-at-home-introductory-text&#039;][/types]&lt;/div&gt;
+              							&lt;/div&gt;
+              						&lt;/div&gt;
+              					&lt;/div&gt;
+              				&lt;/div&gt;
+                              &lt;div class=&quot;col-xs-12 col-sm-6 col-lg-3 vspacer-xs vspacer-sm vspacer-md btn-filter&quot; id=&quot;MPAH&quot; tabindex=&quot;0&quot;&gt;
+              					&lt;div class=&quot;row media&quot;&gt;
+              						&lt;div class=&quot;col-sm-12&quot;&gt;
+              							&lt;div class=&quot;media-left&quot;&gt;&lt;span class=&quot;far fa-circle fa-2x dark-green MPAH&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+              							&lt;div class=&quot;media-body&quot;&gt;
+              								&lt;!-- &lt;h3&gt;Influencing Allies at Home and Abroad&lt;/h3&gt; --&gt;
+                                          &lt;h3&gt;[types field=&#039;mpah-filter&#039; item=&#039;$current_page&#039;][/types]&lt;/h3&gt;
+                                          &lt;div id=&quot;DEintro&quot; style=&quot;display: none;&quot;&gt;[types field=&#039;demoralizing-the-enemy-introductory-text&#039;][/types]&lt;/div&gt;
+              							&lt;/div&gt;
+              						&lt;/div&gt;
+              					&lt;/div&gt;
+              				&lt;/div&gt;
+              			&lt;/div&gt;
+              		&lt;/div&gt;
+              	&lt;/div&gt;
+              &lt;/div&gt;
+              &lt;button class=&quot;btn active maroon-back btn-block btn-lg btn-filter btn-reset&quot; id=&quot;all&quot;&gt;Show All&lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12 middle description&quot; id=&quot;description-area&quot;&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;fieldable-panels-pane container-fluid brick margin-sm-top margin-sm-bottom explore-searchbar&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-md-12&quot;&gt;
+		[wpv-filter-start hide=&quot;false&quot;]   
+        [wpv-filter-controls]
+         &lt;label for=&quot;search-translations-bar&quot; class=&quot;sr-only&quot;&gt;[wpml-string context=&quot;wpv-views&quot;]Search Translations[/wpml-string]&lt;/label&gt;
+          &lt;div class=&quot;input-group input-group-lg&quot;&gt;
+            [wpv-filter-search-box class=&quot;form-control search-bar&quot; id=&quot;search-translations-bar&quot; placeholder=&quot;Search...&quot;]
+            &lt;div class=&quot;input-group-btn&quot;&gt;
+              [wpv-filter-reset class=&quot;btn btn-default reset-btn hidden&quot;][wpv-filter-submit name=&quot;Search&quot; type=&quot;button&quot; class=&quot;btn btn-default maroon-back &quot;]
+            &lt;/div&gt;
+           &lt;/div&gt;
+        
+        [/wpv-filter-controls]
+ 		[wpv-filter-end]        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js>var notFiltered = $( &#039;.js-wpv-filter-trigger-delayed&#039; ).is(function() {
+     return $(this).val() != 0;
+  });
+
+if ( notFiltered == true ) {
+	$(&#039;.reset-btn&#039;).removeClass( &quot;hidden&quot; );
+  	$(&#039;.explore-main-filter&#039;).addClass( &quot;hidden&quot;).html(&#039;&lt;div class=&quot;row&quot;&gt;&lt;div class=&quot;container&quot;&gt;&lt;div class=&quot;row&quot;&gt; &lt;h2&gt;Search Results:&lt;/h2&gt; &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#039;);
+}
+$(&#039;.search-bar&#039;).attr(&#039;id&#039;, &#039;search-translations-bar&#039;);</filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>.portfolio-item {margin-bottom: 30px;}
+.card-img-top {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);}
+.card-img-top-sm {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);object-fit: cover;object-position: center;height: 140px;}
+.card-img-top-lg {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);object-fit: cover;object-position: center;height: 200px;}
+.h-100 {height:100%;min-height: 100px !important;}
+.h-200{height:100%;min-height: 200px !important;}
+.h-300 {height:100%;min-height: 300px !important;}
+.h-400 {height:100%;min-height: 400px !important;}
+.h-450 {height:100%;min-height: 450px !important;}
+.h-500 {height:100%;min-height: 500px !important;}
+.h-600 {height:100%;min-height: 600px !important;}
+.h-700 {height:100%;min-height: 700px !important;}
+.card {position: relative;display: -ms-flexbox;display: flex; -ms-flex-direction: column;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 1px solid rgba(0,0,0,.125);border-radius: .25rem;}
+.card-body {-ms-flex: 1 1 auto;flex: 1 1 auto;padding: 1.25rem;}
+.card-title {margin-bottom: .75rem;}
+.card-footer {padding: .75rem 1.25rem;background-color: rgba(0,0,0,.03);border-top: 1px solid rgba(0,0,0,.125);}
+.card-footer:last-child {border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);}
+.mr-auto, .mx-auto {margin-right: auto!important;}
+.ml-auto, .mx-auto {margin-left: auto!important;}
+.d-block {display: block!important;}
+.profile-img-size {width: 100%;height: 300px;object-fit: cover;}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                    </metasections-hep-show-hide>
+                    <dps>
+                        <mode_helper></mode_helper>
+                        <ajax_results>disable</ajax_results>
+                        <ajax_results_pre_before></ajax_results_pre_before>
+                        <ajax_results_before></ajax_results_before>
+                        <ajax_results_after></ajax_results_after>
+                        <ajax_results_submit>reload</ajax_results_submit>
+                        <enable_dependency>disable</enable_dependency>
+                        <enable_history>enable</enable_history>
+                        <empty_select>hide</empty_select>
+                        <empty_multi_select>hide</empty_multi_select>
+                        <empty_radios>hide</empty_radios>
+                        <empty_checkboxes>hide</empty_checkboxes>
+                    </dps>
+                    <search_mode>
+                        <state>manual</state>
+                    </search_mode>
+                    <post_search_value></post_search_value>
+                    <post_search_shortcode>search</post_search_shortcode>
+                    <post_search_content>full_content</post_search_content>
+                    <post_types>
+                        <post_type>translation</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>&lt;div class=&quot;container-fluid brick&quot; &gt;
+  &lt;div class=&quot;row&quot; id=&quot;parent&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+	     &lt;div class=&quot;row text-center&quot;&gt;
+	[wpv-layout-start]
+    [wpv-items-found]
+    &lt;!-- wpv-loop-start --&gt;
+    &lt;wpv-loop&gt;
+      &lt;div class=&quot;col-lg-4 col-md-6 portfolio-item focus&quot; tabindex=&quot;0&quot; data-chicklet=&quot;[types field=&#039;translation-category&#039; output=&#039;raw&#039;][/types]&quot;&gt;
+        &lt;div class=&quot;card focus&quot; tabindex=&quot;0&quot;&gt;
+          &lt;a href=&quot;[wpv-post-url]&quot;&gt;
+            &lt;img src=&quot;[types field=&#039;original-item&#039; size=&#039;full&#039; url=&#039;true&#039;][/types]&quot; alt=&#039;[wpv-post-featured-image size=&quot;full&quot; output=&quot;alt&quot;]&#039; class=&quot;card-img-top-sm img-responsive profile-img-size&quot;&gt;
+            &lt;div class=&quot;card-body&quot;&gt;
+              &lt;h4 class=&quot;card-title focus&quot; tabindex=&quot;0&quot;&gt;&lt;span class=&quot;fas fa-circle fa-lg red&quot; data-category=&quot;[types field=&#039;translation-category&#039; output=&#039;raw&#039;][/types]&quot;&gt;&lt;/span&gt; [wpv-post-title]&lt;/h4&gt;
+              &lt;p class=&quot;card-text focus&quot; tabindex=&quot;0&quot;&gt;[limit_content length=&quot;140&quot;][types field=&#039;original-description&#039; output=&#039;raw&#039;][/types][/limit_content]&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/a&gt;
+          &lt;div class=&quot;card-footer&quot;&gt;
+            &lt;a class=&quot;btn maroon-back&quot; href=&quot;[wpv-post-url]&quot;&gt;Read&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	&lt;/div&gt;
+	&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+[/wpv-items-found]
+
+
+[wpv-no-items-found]
+  &lt;div class=&quot;fieldable-panels-pane container-fluid brick margin-sm-top margin-sm-bottom&quot; &gt;
+    &lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;container&quot; &gt;
+        &lt;div class=&quot;col-sm-12&quot;&gt;
+          &lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;	
+[/wpv-no-items-found]
+[wpv-layout-end]</layout_meta_html>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+            </meta>
+        </view>
+        <view>
+            <ID>801</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Translations - Demoralizing the Enemy</post_title>
+            <post_name>translations-demoralizing-the-enemy</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <custom-field-wpcf-translation-category_type>NUMERIC</custom-field-wpcf-translation-category_type>
+                    <custom-field-wpcf-translation-category_decimals>2</custom-field-wpcf-translation-category_decimals>
+                    <custom-field-wpcf-translation-category_compare>=</custom-field-wpcf-translation-category_compare>
+                    <custom-field-wpcf-translation-category_value>4</custom-field-wpcf-translation-category_value>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <post_types>
+                        <post_type>translation</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;ul class=&quot;wpv-loop js-wpv-loop&quot;&gt;
+		&lt;wpv-loop&gt;
+			&lt;li&gt;[wpv-post-body view_template=&quot;loop-item-in-translations-demoralizing-the-enemy&quot;]&lt;/li&gt;
+		&lt;/wpv-loop&gt;
+	&lt;/ul&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Translations - Demoralizing the Enemy</included_ct_ids>
+                    <style>un_ordered_list</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-link]</real_field-0>
+                    </real_fields>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Translations - Demoralizing the Enemy</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>798</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Translations - Maintaining Peace with Allies and at Home</post_title>
+            <post_name>translations-maintaining-peace-with-allies-and-at-home</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <custom-field-wpcf-translation-category_type>NUMERIC</custom-field-wpcf-translation-category_type>
+                    <custom-field-wpcf-translation-category_decimals>2</custom-field-wpcf-translation-category_decimals>
+                    <custom-field-wpcf-translation-category_compare>=</custom-field-wpcf-translation-category_compare>
+                    <custom-field-wpcf-translation-category_value>3</custom-field-wpcf-translation-category_value>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <post_types>
+                        <post_type>translation</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;ul class=&quot;wpv-loop js-wpv-loop&quot;&gt;
+		&lt;wpv-loop&gt;
+			&lt;li&gt;[wpv-post-body view_template=&quot;loop-item-in-translations-maintaining-peace-with-allies-and-at-home&quot;]&lt;/li&gt;
+		&lt;/wpv-loop&gt;
+	&lt;/ul&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Translations - Maintaining Peace with Allies and at Home</included_ct_ids>
+                    <style>un_ordered_list</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-link]</real_field-0>
+                    </real_fields>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Translations - Maintaining Peace with Allies and at Home</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>793</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Translations - Influencing Neutrals</post_title>
+            <post_name>translations-influencing-neutrals</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <custom-field-wpcf-translation-category_type>NUMERIC</custom-field-wpcf-translation-category_type>
+                    <custom-field-wpcf-translation-category_decimals>2</custom-field-wpcf-translation-category_decimals>
+                    <custom-field-wpcf-translation-category_compare>=</custom-field-wpcf-translation-category_compare>
+                    <custom-field-wpcf-translation-category_value>2</custom-field-wpcf-translation-category_value>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <post_types>
+                        <post_type>translation</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;ul class=&quot;wpv-loop js-wpv-loop&quot;&gt;
+		&lt;wpv-loop&gt;
+			&lt;li&gt;[wpv-post-body view_template=&quot;loop-item-in-translations-influencing-neutrals&quot;]&lt;/li&gt;
+		&lt;/wpv-loop&gt;
+	&lt;/ul&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Translations - Influencing Neutrals</included_ct_ids>
+                    <style>un_ordered_list</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-link]</real_field-0>
+                    </real_fields>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Translations - Influencing Neutrals</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>786</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Translations - Mobilizing Hatred Against the Enemy</post_title>
+            <post_name>translations-mobilizing-hatred-against-the-enemy</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <custom-field-wpcf-translation-category_type>NUMERIC</custom-field-wpcf-translation-category_type>
+                    <custom-field-wpcf-translation-category_decimals>2</custom-field-wpcf-translation-category_decimals>
+                    <custom-field-wpcf-translation-category_compare>=</custom-field-wpcf-translation-category_compare>
+                    <custom-field-wpcf-translation-category_value>1</custom-field-wpcf-translation-category_value>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <post_types>
+                        <post_type>translation</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;ul class=&quot;wpv-loop js-wpv-loop&quot;&gt;
+		&lt;wpv-loop&gt;
+			&lt;li&gt;[wpv-post-body view_template=&quot;Loop item in Translations - Mobilizing Hatred Against the Enemy&quot;]&lt;/li&gt;
+		&lt;/wpv-loop&gt;
+	&lt;/ul&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Translations - Mobilizing Hatred Against the Enemy</included_ct_ids>
+                    <style>un_ordered_list</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-link]</real_field-0>
+                    </real_fields>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Translations - Mobilizing Hatred Against the Enemy</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>771</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Database Entries</post_title>
+            <post_name>database-entries</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>paged</type>
+                        <posts_per_page>20</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>builtin</spinner>
+                        <spinner_image>https://136.159.200.25/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                        <pause_on_hover></pause_on_hover>
+                        <manage_history>on</manage_history>
+                        <tolerance>0</tolerance>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls]
+&lt;div class=&quot;row &quot;&gt;
+  &lt;label class=&quot;input-group input-group-lg&quot; style=&quot;width:100% !important;&quot;&gt;&lt;span class=&quot;hidden&quot;&gt; Search &lt;/span&gt;
+    [wpv-filter-search-box output=&quot;bootstrap&quot; placeholder=&quot;Type Here To Search...&quot; class=&quot;form-control&quot;]
+    &lt;span class=&quot;input-group-btn&quot;&gt;
+      [wpv-filter-submit name=&quot;Search&quot; type=&quot;button&quot; output=&quot;bootstrap&quot; class=&quot;btn btn-default btn-lg maroon-back&quot;]
+    &lt;/span&gt;
+  &lt;/label&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label class=&quot;input-group&quot; style=&quot;width:100% !important;&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;[wpml-string context=&quot;wpv-views&quot;]Keyword Filter[/wpml-string]&lt;/span&gt;
+        [wpv-control-post-taxonomy taxonomy=&quot;post_tag&quot; type=&quot;select&quot; default_label=&quot;Keyword Filter&quot; class=&quot;form-control&quot; url_param=&quot;wpv-post_tag&quot;]
+        &lt;span class=&quot;input-group-btn&quot;&gt;[wpv-filter-submit name=&quot;Apply Filter&quot; type=&quot;button&quot; output=&quot;bootstrap&quot; class=&quot;btn btn-default maroon-back&quot;]&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-sm-6&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+      &lt;label class=&quot;input-group&quot; style=&quot;width:100% !important;&quot;&gt;&lt;span class=&quot;hidden&quot;&gt;[wpml-string context=&quot;wpv-views&quot;]Year Filter[/wpml-string]&lt;/span&gt;
+          [wpv-control-postmeta field=&quot;wpcf-year&quot; type=&quot;select&quot; default_label=&quot;Year Filter&quot; url_param=&quot;wpv-wpcf-year&quot; output=&quot;legacy&quot; class=&quot;form-control&quot;]
+        &lt;span class=&quot;input-group-btn&quot;&gt;[wpv-filter-submit name=&quot;Apply Filter&quot; type=&quot;button&quot; output=&quot;bootstrap&quot; class=&quot;btn btn-default maroon-back&quot;]&lt;/span&gt;
+      &lt;/label&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+[/wpv-filter-controls]  
+
+[wpv-filter-end]
+
+</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>.pagination &gt; .disabled &gt; span, .pagination &gt; .disabled &gt; span:hover, .pagination &gt; .disabled &gt; span:focus, .pagination &gt; .disabled &gt; a, .pagination &gt; .disabled &gt; a:hover, .pagination &gt; .disabled &gt; a:focus {
+    color: #e30c00;
+    background-color: #fff;
+    border-color: #e30c00;
+    cursor: not-allowed;
+}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <dps>
+                        <mode_helper>fullrefreshonsubmit</mode_helper>
+                        <ajax_results>disable</ajax_results>
+                        <ajax_results_pre_before></ajax_results_pre_before>
+                        <ajax_results_before></ajax_results_before>
+                        <ajax_results_after></ajax_results_after>
+                        <ajax_results_submit>reload</ajax_results_submit>
+                        <enable_dependency>enable</enable_dependency>
+                        <enable_history>enable</enable_history>
+                        <empty_select>hide</empty_select>
+                        <empty_multi_select>hide</empty_multi_select>
+                        <empty_radios>hide</empty_radios>
+                        <empty_checkboxes>hide</empty_checkboxes>
+                    </dps>
+                    <post_search_shortcode>search</post_search_shortcode>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                    </metasections-hep-show-hide>
+                    <taxonomy_relationship>AND</taxonomy_relationship>
+                    <search_mode>
+                        <state>manual</state>
+                    </search_mode>
+                    <post_search_value></post_search_value>
+                    <post_search_content>full_content</post_search_content>
+                    <tax_post_tag_relationship>FROM URL</tax_post_tag_relationship>
+                    <taxonomy-post_tag-attribute-url>wpv-post_tag</taxonomy-post_tag-attribute-url>
+                    <taxonomy-post_tag-attribute-url-format>slug</taxonomy-post_tag-attribute-url-format>
+                    <taxonomy-post_tag-attribute-operator>IN</taxonomy-post_tag-attribute-operator>
+                    <custom-field-wpcf-wpcf-year_decimals>2</custom-field-wpcf-wpcf-year_decimals>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <custom-field-wpcf-year_value>URL_PARAM(wpv-wpcf-year)</custom-field-wpcf-year_value>
+                    <custom-field-wpcf-year_compare>=</custom-field-wpcf-year_compare>
+                    <custom-field-wpcf-year_type>CHAR</custom-field-wpcf-year_type>
+                    <post_types>
+                        <post_type>database-entries</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;Loop item in Database Entries&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+
+    &lt;br&gt;
+      &lt;div class=&quot;row vbottom&quot;&gt;
+        &lt;div class=&quot;col-sm-12 col-md-12 col-lg-12&quot;&gt;
+          &lt;div class=&quot;center&quot;&gt;
+              [wpv-pager-nav-links output=&quot;bootstrap&quot; previous_next_links=&quot;true&quot; reach=&quot;5&quot;]
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Database Entries</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Database Entries</_view_loop_template>
+            </meta>
+        </view>
+    </views>
+    <view-templates>
+        <view-template>
+            <ID>4324</ID>
+            <post_content>&lt;div class=&#039;col-md-3 text-center margin-sm-bottom&#039;&gt;
+  &lt;div class=&#039;img-container text-center&#039;&gt;
+    &lt;img tabindex=&#039;0&#039; src=&#039;[wpv-post-featured-image size=&quot;large&quot; output=&quot;url&quot;]&#039; class=&#039;img-circle img-responsive center-block profile-img-size&#039; alt=&#039;[wpv-post-featured-image size=&quot;full&quot; output=&quot;alt&quot;]&#039; /&gt;
+  &lt;/div&gt;
+  &lt;h2 tabindex=&#039;0&#039;&gt;[wpv-post-link]&lt;/h2&gt;
+  &lt;p tabindex=&#039;0&#039;&gt;[wpv-post-excerpt length=&quot;155&quot; format=&quot;noautop&quot;]&lt;/p&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in Credit View</post_title>
+            <post_name>loop-item-in-credit-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>1208</ID>
+            <post_content></post_content>
+            <post_title>Template for Pages 2</post_title>
+            <post_name>template-for-pages</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>1116</ID>
+            <post_content></post_content>
+            <post_title>Template for Pages</post_title>
+            <post_name>template-for-pages</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>960</ID>
+            <post_content>&lt;div class=&quot;col-sm-4 col-md-4 col-lg-4&quot;&gt;
+  &lt;div class=&quot;resouce-background hvr-float&quot;&gt;
+      &lt;div class=&quot;resouce-padding&quot;&gt;
+        &lt;h4&gt;[wpv-post-title]&lt;/h4&gt;
+        &lt;p&gt;&lt;strong&gt;Grade:&lt;/strong&gt; [types field=&quot;grade-tr&quot;][/types]&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;
+        &lt;p&gt;[limit_content length=&quot;117&quot;][types field=&quot;description-tr&quot;][/types][/limit_content]&lt;/p&gt;
+        
+        &lt;p class=&quot;vbottom margin-sm-top resouce-readmore-btn&quot;&gt;&lt;a href=&quot;[types field=&#039;file-upload-tr&#039; output=&#039;raw&#039;][/types]&quot; aira-label=&quot;button&quot; target=&quot;_blank&quot; class=&quot;btn maroon-back&quot;&gt;
+          
+          [pdf-file-meta meta_name=&quot;type&quot;] Document &lt;br&gt;&lt;small&gt;([pdf-file-meta meta_name=&quot;type&quot;], [pdf-file-meta meta_name=&quot;size&quot;])&lt;/small&gt;
+          
+          &lt;/a&gt;&lt;/p&gt;
+        
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in Teachers Resources View</post_title>
+            <post_name>loop-item-in-teachers-resources-view</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>802</ID>
+            <post_content>[wpv-post-link]</post_content>
+            <post_title>Loop item in Translations - Demoralizing the Enemy</post_title>
+            <post_name>loop-item-in-translations-demoralizing-the-enemy</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>799</ID>
+            <post_content>[wpv-post-link]</post_content>
+            <post_title>Loop item in Translations - Maintaining Peace with Allies and at Home</post_title>
+            <post_name>loop-item-in-translations-maintaining-peace-with-allies-and-at-home</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>794</ID>
+            <post_content>[wpv-post-link]</post_content>
+            <post_title>Loop item in Translations - Influencing Neutrals</post_title>
+            <post_name>loop-item-in-translations-influencing-neutrals</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>789</ID>
+            <post_content>[wpv-post-link]</post_content>
+            <post_title>Loop item in Translations - Mobilizing Hatred Against the Enemy</post_title>
+            <post_name>loop-item-in-translations-mobilizing-hatred-against-the-enemy</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>774</ID>
+            <post_content>&lt;div class=&quot;col-sm-12 col-md-3 col-lg-3 accessability-tab&quot; id=&quot;&quot; tabindex=&quot;0&quot; style=&quot;height: 500px;&quot;&gt;
+    &lt;a href=&quot;[wpv-post-url]&quot; class=&quot;accessability-tab&quot; title=&quot;[wpv-post-title]&quot;&gt;
+      &lt;img class=&quot;img-responsive event-img-size&quot; src=&quot;https://cdm22007.contentdm.oclc.org/digital/api/singleitem/collection/cmh/id/[types field=&#039;contentdm-id&#039; output=&#039;raw&#039;][/types]/thumbnail&quot; tabindex=&quot;0&quot; width=&quot;100%&quot; style=&quot;height: 300px;&quot; alt=&#039;[wpv-post-title]&#039;&gt;
+  	&lt;/a&gt;
+    &lt;h4&gt;&lt;a href=&quot;[wpv-post-url]&quot; class=&quot;accessability-tab&quot; title=&quot;[wpv-post-title]&quot;&gt;
+      [limit_content length=&quot;50&quot;][wpv-post-title][/limit_content]
+  	&lt;/a&gt;&lt;/h4&gt;
+    &lt;p&gt;[types field=&#039;author&#039;][/types]&lt;/p&gt;
+    &lt;p&gt;[types field=&#039;publisher-data&#039;][/types]&lt;/p&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in Database Entries</post_title>
+            <post_name>loop-item-in-database-entries</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css>.accessability-tab:focus{outline: rgba(0,0,0,1) solid 1px !important;}
+.accessability-tab a:focus{outline: rgba(0,0,0,1) solid 1px !important;}</template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+    </view-templates>
+    <settings>
+        <wpv_bootstrap_version>1</wpv_bootstrap_version>
+        <wpv_custom_inner_shortcodes>
+            <chicklet--circle-colour>chicklet--circle-colour</chicklet--circle-colour>
+        </wpv_custom_inner_shortcodes>
+        <wpv_debug_mode>0</wpv_debug_mode>
+        <wpv_debug_mode_type>full</wpv_debug_mode_type>
+        <wpv_map_plugin>0</wpv_map_plugin>
+        <wpv_show_hidden_fields></wpv_show_hidden_fields>
+        <wpv_saved_auto_detected_framework></wpv_saved_auto_detected_framework>
+        <wpv_codemirror_autoresize></wpv_codemirror_autoresize>
+        <wpv_enable_pagination_manage_history>1</wpv_enable_pagination_manage_history>
+        <wpv_enable_parametric_search_manage_history>1</wpv_enable_parametric_search_manage_history>
+        <support_spaces_in_meta_filters>1</support_spaces_in_meta_filters>
+        <allow_views_wp_widgets_in_elementor>1</allow_views_wp_widgets_in_elementor>
+        <default_user_editor>basic</default_user_editor>
+        <manage_meta_transient_method>cron</manage_meta_transient_method>
+    </settings>
+</views>

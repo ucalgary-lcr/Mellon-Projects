@@ -1,0 +1,61 @@
+/*
+Theme Name: ucalgary theme
+Theme URI: https://www.ucalgary.ca
+Author: ucalgary
+Author URI: https://www.ucalgary.ca
+Description: Ucalgary Theme on Boostrap Framework 3.3.5
+Version: 1.0
+Text Domain: ucalgary
+*/
+/******* Theme Specific styles ****/
+html, body {overflow-x: hidden;}
+
+/******* Nav Styles ********/
+.navbar-default {background-color: transparent;border-color: transparent;border-top: 1px solid #fff;border-radius: 0px;height: 15px;color:#fff;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color:#fff;background-color:transparent;border-bottom:5px solid #f47c00;padding-bottom: 3px;}
+.navbar-default .navbar-nav>li>a {color: #fff;}
+.navbar-default .navbar-nav>li>a:hover {color: #f47c00;border-bottom: 1px #f47c00;}
+.navbar-default .navbar-nav>li>a:focus {color: #fff;border-bottom: 1px #f47c00;}
+.navbar-nav>li>a {padding-top: 10px;padding-bottom: 5px;text-align:left;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {color: #fff;background-color: transparent;}
+
+.dropdown-menu{margin: 15px;padding: 0;background-color: #8d827a;}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:active, .dropdown-menu > .active > a:focus, .dropdown-menu > .selected > a, .dropdown-menu > .selected > a:hover, .dropdown-menu > .selected > a:active, .dropdown-menu > .selected > a:focus {color: #f47c00;background-color: #fff;}
+.dropdown-menu > li > a{color:#6F6258; background-color:#ffffff;}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:active, .dropdown-menu > li > a:focus {color: #f47c00;background-color: #fff;}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:active>.dropdown-menu, .dropdown-submenu:hover>.dropdown-menu {display: block;right:162px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:active>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}
+.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+/**** Brick Styles *****/
+.brick.hero-cta.top.video {margin-top: -82px;}
+
+@media  (min-width:280px) and (max-width: 1200px){
+	/******* Nav Styles ********/
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {color: #fff;}
+	.navbar-collapse {padding-right: 15px;padding-left: 15px;overflow-x: visible;-webkit-overflow-scrolling: touch;border-top: 1px solid transparent;-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);box-shadow: inset 0 1px 0 rgba(255,255,255,.1);top:0;background-color: #80756e;}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: orange;background-color: transparent;border-bottom:0px solid #f47c00;}
+	.navbar-default .navbar-toggle {border-color: transparent;}
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {color: #f47c00 ;background-color: transparent;}
+	.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:active, .dropdown-menu > .active > a:focus, .dropdown-menu > .selected > a, .dropdown-menu > .selected > a:hover, .dropdown-menu > .selected > a:active, .dropdown-menu > .selected > a:focus {background-color: transparent;border:none;color:transparent;}
+	.dropdown-menu {margin: 0;padding: 0;background-color: transparent;display: none;width: 100%;display: none;min-width: 0;padding: 0;margin: 0;font-size: 14px;text-align: left;list-style: none;-webkit-background-clip: inherit;background-clip: inherit;border: none;border-radius: 0;-webkit-box-shadow: none;box-shadow: none;}
+	.dropdown-menu > li > a{color:#ffffff; background-color:#80756e;}
+	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:active, .dropdown-menu > li > a:focus {color: #f47c00;background-color: #80756e;}
+	.navbar-toggle {position: relative;float: left;margin-right: 15px;padding: 9px 10px;margin-top: 5px;margin-bottom: 0;background-color: transparent;background-image: none;border: none;border-radius: 4px;}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent;}
+	/**** Brick Styles *****/
+	.brick.hero-cta.top.video {margin-top: -82px;}
+
+}
+/**********
+ Support Section For Various Browsers ex Edge, IE, etc
+**************/
+@supports (-ms-ime-align:auto) {
+    .vertical-title{writing-mode: tb-rl; width: auto; height:450px;word-break:normal;overflow-wrap:normal;}
+}
