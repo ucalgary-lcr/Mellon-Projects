@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <site_url>https://victorians.ucalgary.ca</site_url>
+    <fileupload_url>https://victorians.ucalgary.ca/wp-content/uploads</fileupload_url>
+    <wpv_database_version>2080300</wpv_database_version>
+    <views>
+        <view>
+            <ID>3504</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>List of People Test</post_title>
+            <post_name>list-of-people-test</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <post_types>
+                        <post_type>people</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-list-of-people-test&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in List of People Test</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in List of People Test</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>3502</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>List-Test</post_title>
+            <post_name>list-test</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <post_types>
+                        <post_type>people</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-list-test&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in List-Test</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in List-Test</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>3498</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Test-Map-Page</post_title>
+            <post_name>test-map-page</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>0</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>http://136.159.200.38/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]
+&lt;div class=&quot;fieldable-panels-pane container-fluid brick no-bottom-margin&quot; id=&quot;map-brick&quot;&gt;
+ [wpv-map-render map_id=&quot;map&quot; map_width=&quot;100%&quot; map_height=&quot;800px&quot; style_json=&quot;https://victorians.ucalgary.ca/wp-content/uploads/2019/02/map-style-1.json&quot;][/wpv-map-render]
+    
+&lt;/div&gt;</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js>jQuery( document ).on( &#039;js_event_wpv_addon_maps_init_map_completed&#039;, function( event, data ) {
+	
+  	var mapMinZoom = 0;
+    var mapMaxZoom = 20;
+    var nlsmap = new google.maps.ImageMapType({
+    getTileUrl:function(tile,zoom) { return NLSTileUrlOS(tile.x,tile.y,zoom);},
+    tileSize:new google.maps.Size(256,256),
+    maxZoom:mapMaxZoom,
+    minZoom:mapMinZoom,
+    isPng:false,
+    name: &#039;Historic&#039;
+    });
+  
+    var opts = {
+      streetViewControl: false,
+      center: new google.maps.LatLng(53.2653,-4.4291),
+      zoom: 12,
+      mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.ROADMAP,&#039;historic&#039;]},
+      mapTypeControl:true,
+      style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR
+    };
+
+	map = WPViews.view_addon_maps.maps.map;
+	map.setOptions(opts);
+	map.mapTypes.set(&#039;historic&#039;,nlsmap,opts);
+	map.setMapTypeId(&#039;roadmap&#039;);
+
+  var markerRE = /d+-d+$/;
+$.each(
+    $(&#039;.wpv-addon-maps-marker&#039;)
+        .filter(function () {
+            return markerRE.test($(this).data(&#039;marker&#039;).toString());
+        })
+        .map(function () {
+            return $(this).data(&#039;marker&#039;).toString();
+        }),
+
+    function ( key, value ) {
+        WPViews.view_addon_maps.markers.map[value].setVisible(false);
+    }
+)
+  });</filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>body.page-user main#content &gt; *:not(.contextual-links-region):not(.brick), body.logged-in main#content &gt; *:not(.contextual-links-region):not(.brick) {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-query-help>off</wpv-query-help>
+                    </metasections-hep-show-hide>
+                    <users-show-current>0</users-show-current>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+
+  &lt;wpv-loop&gt;
+    [wpv-conditional if=&quot;( $(wpcf-current-google-address) ne &#039;&#039; ) AND ( $(wpcf-current-google-address) ne &#039;NA&#039; ) AND ( $(wpcf-current-google-address) ne &#039;?&#039; )&quot;]    [/wpv-conditional]
+    [wpv-map-marker map_id=&#039;map&#039; marker_id=&#039;[wpv-post-id]&#039; marker_title=&quot;[wpv-post-title]&quot; id=&quot;$posttype&quot; marker_icon=&#039;//victorians.ucalgary.ca/wp-content/plugins/toolset-maps/resources/images/markers/Home.png&#039; marker_field=&#039;wpcf-current-google-address&#039; item=&#039;@people-location.child&#039;]
+	[wpv-post-body view_template=&quot;loop-item-in-test-map-page&quot;]
+    [/wpv-map-marker]
+
+  &lt;/wpv-loop&gt;
+
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Test-Map-Page</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Test-Map-Page</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>333</ID>
+            <post_content>[wpv-filter-meta-html]
+[types field=&#039;contributor-name&#039;][/types]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Contributors</post_title>
+            <post_name>contributors</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>field-wpcf-contributor-name</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <custom-field-wpcf-contributor-name_decimals>2</custom-field-wpcf-contributor-name_decimals>
+                    <custom_fields_relationship>AND</custom_fields_relationship>
+                    <orderby_as>STRING</orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <custom-field-wpcf-contributor-name_type>CHAR</custom-field-wpcf-contributor-name_type>
+                    <custom-field-wpcf-contributor-name_compare>!=</custom-field-wpcf-contributor-name_compare>
+                    <custom-field-wpcf-contributor-name_value></custom-field-wpcf-contributor-name_value>
+                    <metasections-hep-show-hide>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-query-help>off</wpv-query-help>
+                    </metasections-hep-show-hide>
+                    <post_types>
+                        <post_type>people</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+      &lt;div class=&quot;fieldable-panels-pane container-fluid brick&quot;&gt;
+          &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                &lt;h2&gt;Contributors&lt;/h2&gt;
+                    &lt;ul&gt;
+                      &lt;wpv-loop&gt;
+                          [wpv-post-body view_template=&quot;loop-item-in-contributors&quot;]
+                      &lt;/wpv-loop&gt;
+                    &lt;/ul&gt;
+              &lt;/div&gt;
+          &lt;/div&gt;
+      &lt;/div&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[types field=&quot;contributor-name&quot;][/types]</real_field-0>
+                        <real_field-1>[types field=&quot;contributor-affiliation&quot;][/types]</real_field-1>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                    <included_ct_ids>Loop item in Contributors</included_ct_ids>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Contributors</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>199</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>List of People</post_title>
+            <post_name>list-of-people</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls]
+&lt;div class=&quot;input-group&quot;&gt;
+	[wpv-filter-search-box output=&quot;bootstrap&quot; placeholder=&quot;Search for a person&quot;]
+  &lt;div class=&quot;input-group-btn&quot;&gt;
+    [wpv-filter-reset class=&quot;btn maroon-back&quot;][wpv-filter-submit name=&quot;Search&quot; class=&quot;btn maroon-back&quot;]
+  &lt;/div&gt;
+&lt;/div&gt;
+
+[/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css>.form-control {height: 32px;}</filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <search_mode>
+                        <state>manual</state>
+                    </search_mode>
+                    <post_search_value></post_search_value>
+                    <post_search_shortcode>search</post_search_shortcode>
+                    <post_search_content>full_content</post_search_content>
+                    <dps>
+                        <mode_helper>ajaxrefreshonsubmit</mode_helper>
+                        <ajax_results>disable</ajax_results>
+                        <ajax_results_pre_before></ajax_results_pre_before>
+                        <ajax_results_before></ajax_results_before>
+                        <ajax_results_after></ajax_results_after>
+                        <ajax_results_submit>ajaxed</ajax_results_submit>
+                        <enable_dependency>enable</enable_dependency>
+                        <enable_history>enable</enable_history>
+                        <empty_select>hide</empty_select>
+                        <empty_multi_select>hide</empty_multi_select>
+                        <empty_radios>hide</empty_radios>
+                        <empty_checkboxes>hide</empty_checkboxes>
+                    </dps>
+                    <post_types>
+                        <post_type>people</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-list-of-people&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in List of People</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in List of People</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>193</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Individuals Page Map</post_title>
+            <post_name>individuals-page-map</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]
+[wpv-map-render map_id=&quot;individual&quot; map_width=&quot;100%&quot; map_height=&quot;450px&quot; marker_icon=&quot;//victorians.ucalgary.ca/wp-content/plugins/toolset-maps/resources/images/markers/Home.png&quot;][/wpv-map-render]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js>jQuery( document ).on( &#039;js_event_wpv_addon_maps_init_map_completed&#039;, function( event, data ) {
+	
+  	var mapMinZoom = 0;
+    var mapMaxZoom = 20;
+    var nlsmap = new google.maps.ImageMapType({
+    getTileUrl:function(tile,zoom) { return NLSTileUrlOS(tile.x,tile.y,zoom);},
+    tileSize:new google.maps.Size(256,256),
+    maxZoom:mapMaxZoom,
+    minZoom:mapMinZoom,
+    isPng:false,
+    name: &#039;Historic&#039;
+    });
+  
+    var opts = {
+      streetViewControl: false,
+      center: new google.maps.LatLng(53.2653,-4.4291),
+      zoom: 12,
+      mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.ROADMAP,&#039;historic&#039;]},
+      mapTypeControl:true,
+      style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR
+    };
+
+	map = WPViews.view_addon_maps.maps.individual;
+	map.setOptions(opts);
+	map.mapTypes.set(&#039;historic&#039;,nlsmap,opts);
+	map.setMapTypeId(&#039;roadmap&#039;);
+
+  });</filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <post_relationship_mode>current_post_or_parent_post_view</post_relationship_mode>
+                    <post_relationship_shortcode_attribute>wpvrelatedto</post_relationship_shortcode_attribute>
+                    <post_relationship_url_parameter>wpv-relationship-filter</post_relationship_url_parameter>
+                    <post_relationship_role>intermediary</post_relationship_role>
+                    <post_relationship_slug>people-location</post_relationship_slug>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-individuals-page-map&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Individuals Page Map</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Individuals Page Map</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>177</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Testing Map Layover</post_title>
+            <post_name>testing-map-layover</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]
+&lt;div class=&quot;fieldable-panels-pane container-fluid brick top-margin&quot;&gt;
+  [wpv-map-render map_id=&quot;map&quot; map_width=&quot;100%&quot; map_height=&quot;400px&quot;][/wpv-map-render]
+  &lt;/div&gt;</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js>  	var map;
+	var mapBounds = new google.maps.LatLngBounds(
+		new google.maps.LatLng(-90, -180),
+		new google.maps.LatLng(90, 180));
+
+	var mapMinZoom = 8;
+	var mapMaxZoom = 20;
+
+	var nlsmap = new google.maps.ImageMapType({
+		getTileUrl:function(tile,zoom) {
+		return NLSTileUrlOS(tile.x,tile.y,zoom);
+		},
+		tileSize:new google.maps.Size(256,256),
+		maxZoom:mapMaxZoom,
+		minZoom:mapMinZoom,
+		isPng:false,
+		name: &#039;Historic&#039;
+	});
+
+      var opts = {
+            streetViewControl: false,
+            center: new google.maps.LatLng(55.96,-3.2),
+            zoom: 14,
+            mapTypeControlOptions:{mapTypeIds:[google.maps.MapTypeId.TERRAIN,google.maps.MapTypeId.SATELLITE,google.maps.MapTypeId.ROADMAP,&#039;historic&#039;]},
+            mapTypeControl:true,
+            style:google.maps.MapTypeControlStyle.HORIZONTAL_BAR
+        };
+
+		var NLSAPIcredit=document.createElement(&#039;h1&#039;);
+		var myTextDiv=document.createElement(&#039;div&#039;);
+		myTextDiv.appendChild(NLSAPIcredit);
+		
+
+jQuery( document ).on( &#039;js_event_wpv_addon_maps_init_map_completed&#039;, function( event, data ) {
+  		map = WPViews.view_addon_maps.maps.map;
+		map.mapTypes.set(&#039;historic&#039;,nlsmap);
+		map.setMapTypeId(&#039;historic&#039;);
+});
+</filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>#map {width: 100%; height: 400px; }
+
+@media screen and (max-width: 600px) {
+  #map { top:0px; left:0px; width:100%; height:100%;}
+}
+
+#map { border: 1px solid #ccc; box-shadow: 0 1px 3px #CCC; background-color: #DEDCD7;}
+
+.top-margin{margin-top:50px;}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <post_types>
+                        <post_type>location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+
+
+
+	&lt;wpv-loop&gt;
+    	[wpv-map-marker map_id=&#039;map&#039; marker_title=&quot;[wpv-post-title]&quot; marker_icon=&#039;//victorians.ucalgary.ca/wp-content/plugins/toolset-maps/resources/images/markers/Home.png&#039; marker_field=&#039;wpcf-current-google-address&#039;]
+			[wpv-post-body view_template=&quot;loop-item-in-testing-map-layover&quot;]
+    	[/wpv-map-marker]      
+	&lt;/wpv-loop&gt;
+    
+
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Testing Map Layover</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Testing Map Layover</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>155</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Who Lived In This Location</post_title>
+            <post_name>who-lived-in-this-location</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>off</pagination>
+                        <filter-extra-parametric>off</filter-extra-parametric>
+                        <filter-extra>off</filter-extra>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <post_relationship_mode>current_post_or_parent_post_view</post_relationship_mode>
+                    <post_relationship_shortcode_attribute>wpvrelatedto</post_relationship_shortcode_attribute>
+                    <post_relationship_url_parameter>wpv-relationship-filter</post_relationship_url_parameter>
+                    <post_relationship_slug></post_relationship_slug>
+                    <post_relationship_role>child</post_relationship_role>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <post_types>
+                        <post_type>people</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-who-lived-in-this-location&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Who Lived In This Location</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Who Lived In This Location</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>151</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Who Lived Here Popup Map Marker Details</post_title>
+            <post_name>who-lived-here-popup-map-marker-details</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_title</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <users-show-current>0</users-show-current>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <post_relationship_mode>current_post_or_parent_post_view</post_relationship_mode>
+                    <post_relationship_shortcode_attribute>wpvrelatedto</post_relationship_shortcode_attribute>
+                    <post_relationship_url_parameter>wpv-relationship-filter</post_relationship_url_parameter>
+                    <post_relationship_slug></post_relationship_slug>
+                    <post_relationship_role>child</post_relationship_role>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-who-lived-here-popup-map-marker-details&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Who Lived Here Popup Map Marker Details</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Who Lived Here Popup Map Marker Details</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>104</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>The Team</post_title>
+            <post_name>the-team</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>field-wpcf-sort-order</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>off</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as>NUMERIC</orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <post_types>
+                        <post_type>our-team</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+&lt;div class=&quot;fieldable-panels-pane container-fluid brick margin-sm-bottom&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;!-- Team Members --&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;h2&gt;Our Team&lt;/h2&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+          &lt;!-- wpv-loop-start --&gt;
+          &lt;wpv-loop&gt;
+              [wpv-post-body view_template=&quot;loop-item-in-the-team&quot;]
+          &lt;/wpv-loop&gt;
+          &lt;!-- wpv-loop-end --&gt;
+     &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in The Team</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in The Team</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>101</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Where I lived</post_title>
+            <post_name>where-i-lived</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>field-wpcf-residence-from</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://victorians.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>off</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as>STRING</orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <distance_order>
+                        <source>undefined</source>
+                        <center></center>
+                        <url_parameter>undefined</url_parameter>
+                    </distance_order>
+                    <post_relationship_mode>current_post_or_parent_post_view</post_relationship_mode>
+                    <post_relationship_shortcode_attribute>wpvrelatedto</post_relationship_shortcode_attribute>
+                    <post_relationship_url_parameter>wpv-relationship-filter</post_relationship_url_parameter>
+                    <post_relationship_role>child</post_relationship_role>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+&lt;hr&gt;
+    &lt;h3&gt;Addresses:&lt;/h3&gt;
+      &lt;ul class=&quot;list-unstyled&quot;&gt;
+        &lt;wpv-loop&gt;
+          [wpv-post-body view_template=&quot;loop-item-in-where-i-lived&quot;]
+        &lt;/wpv-loop&gt;
+      &lt;/ul&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Where I lived</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Where I lived</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>81</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>List</post_title>
+            <post_name>list</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>0</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>9</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>builtin</spinner>
+                        <spinner_image>http://136.159.200.38/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                        <pause_on_hover></pause_on_hover>
+                        <manage_history>on</manage_history>
+                        <tolerance>0</tolerance>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>.pagination&gt;.active&gt;a, .pagination&gt;.active&gt;a:focus, .pagination&gt;.active&gt;a:hover, .pagination&gt;.active&gt;span, .pagination&gt;.active&gt;span:focus, .pagination&gt;.active&gt;span:hover {
+    z-index: 2;
+    color: #fff  !important;
+    cursor: default;
+    background-color: #e30c00 !important;
+    border-color: #e30c00 !important;
+}
+
+.pagination&gt;li&gt;a, .pagination&gt;li&gt;span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #e30c00 !important;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>off</wpv-query-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <users-show-current>0</users-show-current>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+      &lt;div class=&quot;fieldable-panels-pane container-fluid brick margin-md-top&quot; id=&quot;list-items&quot;&gt;
+          &lt;div class=&quot;container&quot;&gt;
+              &lt;div class=&quot;row&quot;&gt;
+                [wpv-view name=&quot;list-of-people&quot; view_display=&quot;layout&quot;]
+
+                &lt;div class=&quot;hidden&quot;&gt;
+              &lt;wpv-loop&gt;
+                  [wpv-post-body view_template=&quot;loop-item-in-list&quot;]
+              &lt;/wpv-loop&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Locations#SEPARATOR#Loop item in List</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in List</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>76</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Map</post_title>
+            <post_name>map</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>0</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>http://136.159.200.38/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]
+&lt;div class=&quot;fieldable-panels-pane container-fluid brick no-bottom-margin&quot; id=&quot;map-brick&quot;&gt;
+ [wpv-map-render map_id=&quot;map&quot; map_width=&quot;100%&quot; map_height=&quot;800px&quot; style_json=&quot;https://victorians.ucalgary.ca/wp-content/uploads/2019/02/map-style-1.json&quot;][/wpv-map-render]
+    
+&lt;/div&gt;</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css>body.page-user main#content &gt; *:not(.contextual-links-region):not(.brick), body.logged-in main#content &gt; *:not(.contextual-links-region):not(.brick) {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}</layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-filter-help>off</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-query-help>off</wpv-query-help>
+                    </metasections-hep-show-hide>
+                    <users-show-current>0</users-show-current>
+                    <post_types>
+                        <post_type>location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+
+  &lt;wpv-loop&gt;
+
+    
+	[wpv-post-body view_template=&quot;Loop item in Map&quot;]
+
+  &lt;/wpv-loop&gt;
+
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Map</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class></bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Map</_view_loop_template>
+            </meta>
+        </view>
+        <view>
+            <ID>51</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Who Lived Here</post_title>
+            <post_name>who-lived-here</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>all</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>DESC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>http://136.159.200.38/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end] </filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>on</wpv-query-help>
+                        <wpv-filter-help>on</wpv-filter-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                    </metasections-hep-show-hide>
+                    <post_relationship_mode>top_current_post</post_relationship_mode>
+                    <post_relationship_shortcode_attribute>wpvrelatedto</post_relationship_shortcode_attribute>
+                    <post_relationship_url_parameter>wpv-relationship-filter</post_relationship_url_parameter>
+                    <post_relationship_role>child</post_relationship_role>
+                    <users-show-current>0</users-show-current>
+                    <post_types>
+                        <post_type>people-location</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-where-you-lived&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Where you lived</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Where you lived</_view_loop_template>
+            </meta>
+        </view>
+    </views>
+    <view-templates>
+        <view-template>
+            <ID>3505</ID>
+            <post_content>&lt;div class=&quot;col-lg-4 col-md-6 mb-4 filter-people [types field=&#039;gender&#039; output=&#039;raw&#039;][/types] [types field=&#039;roles&#039; output=&#039;raw&#039;][/types]&quot;&gt;
+  &lt;div class=&quot;card h-50&quot;&gt;
+
+    
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h4 class=&quot;card-title&quot;&gt;&lt;a href=&#039;[wpv-post-url]&#039;&gt;[wpv-post-title]&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+   &lt;!-- &lt;div class=&quot;card-footer center&quot;&gt;
+	      &lt;p&gt;&lt;a class=&quot;btn red-back&quot; target=&quot;_blank&quot; href=&#039;[wpv-post-url]&#039; role=&quot;button&quot; rel=&quot;noopener noreferrer&quot;&gt;Address Details&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;--&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in List of People Test</post_title>
+            <post_name>loop-item-in-list-of-people-test</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>3503</ID>
+            <post_content>&lt;div class=&quot;col-lg-4 col-md-6 mb-4 filter-people [types field=&#039;gender&#039; output=&#039;raw&#039;][/types] [types field=&#039;roles&#039; output=&#039;raw&#039;][/types]&quot;&gt;
+  &lt;div class=&quot;card h-50&quot;&gt;
+
+    
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h4 class=&quot;card-title&quot;&gt;&lt;a href=&#039;[wpv-post-url]&#039;&gt;[wpv-post-title]&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+   &lt;!-- &lt;div class=&quot;card-footer center&quot;&gt;
+	      &lt;p&gt;&lt;a class=&quot;btn red-back&quot; target=&quot;_blank&quot; href=&#039;[wpv-post-url]&#039; role=&quot;button&quot; rel=&quot;noopener noreferrer&quot;&gt;Address Details&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;--&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in List-Test</post_title>
+            <post_name>loop-item-in-list-test</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>3499</ID>
+            <post_content>&lt;h4&gt;[wpv-post-title]&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;[wpv-view name=&quot;who-lived-here-popup-map-marker-details&quot;]&lt;/p&gt;</post_content>
+            <post_title>Loop item in Test-Map-Page</post_title>
+            <post_name>loop-item-in-test-map-page</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>372</ID>
+            <post_content>&lt;li&gt;
+  [types field=&quot;contributor-name&quot;][/types]&lt;br&gt;
+  [types field=&quot;contributor-affiliation&quot;][/types]
+&lt;/li&gt;</post_content>
+            <post_title>Loop item in Contributors</post_title>
+            <post_name>loop-item-in-contributors</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>200</ID>
+            <post_content>&lt;div class=&quot;col-lg-4 col-md-6 mb-4 filter-people [types field=&#039;gender&#039; output=&#039;raw&#039;][/types] [types field=&#039;roles&#039; output=&#039;raw&#039;][/types]&quot;&gt;
+  &lt;div class=&quot;card h-50&quot;&gt;
+
+    
+    &lt;div class=&quot;card-body&quot;&gt;
+      &lt;h4 class=&quot;card-title&quot;&gt;&lt;a href=&#039;[wpv-post-url]&#039;&gt;[wpv-post-title]&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+   &lt;!-- &lt;div class=&quot;card-footer center&quot;&gt;
+	      &lt;p&gt;&lt;a class=&quot;btn red-back&quot; target=&quot;_blank&quot; href=&#039;[wpv-post-url]&#039; role=&quot;button&quot; rel=&quot;noopener noreferrer&quot;&gt;Address Details&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;--&gt;
+    
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in List of People</post_title>
+            <post_name>loop-item-in-list-of-people</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>194</ID>
+            <post_content>[wpv-map-marker map_id=&#039;individual&#039;  marker_id=&quot;[wpv-post-id]&quot; marker_title=&quot;[wpv-post-title]&quot; marker_field=&#039;wpcf-current-google-address&#039; item=&#039;@people-location.child&#039;]
+&lt;p&gt;[wpv-post-title item=&quot;@people-location.child&quot;]&lt;/p&gt;
+[wpv-conditional if=&quot;( &#039;[wpv-post-featured-image output=&#039;url&#039; item=&#039;@people-location.child&#039;]&#039; )&quot;]
+  &lt;div class=&quot;l-img-size&quot;&gt;
+	[wpv-post-featured-image size=&quot;medium&quot; class=&quot;img-responsive&quot; item=&quot;@people-location.child&quot;]
+  &lt;/div&gt;
+[/wpv-conditional]
+[/wpv-map-marker]</post_content>
+            <post_title>Loop item in Individuals Page Map</post_title>
+            <post_name>loop-item-in-individuals-page-map</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css>.l-img-size {width: 100%;height: 150px;object-fit: contain; object-position: center;}</template_extra_css>
+            <template_extra_js>//$(&#039;.map-link&#039;).on(&#039;click&#039;, function(e) {
+//var marker = new WPViews.view_addon_maps.markers
+//var infowindow = new WPViews.view_addon_maps.infowindows
+//infowindow.open();
+//});</template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>178</ID>
+            <post_content>[wpv-post-title]</post_content>
+            <post_title>Loop item in Testing Map Layover</post_title>
+            <post_name>loop-item-in-testing-map-layover</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>156</ID>
+            <post_content>&lt;ul class=&#039;list-unstyled&#039;&gt;
+  
+  &lt;li&gt;[wpv-post-link ]&lt;/li&gt;
+  [wpv-conditional if=&quot;( $(wpcf-residence-to) ) AND ( $(wpcf-residence-from) )&quot;]&lt;li&gt;Residence from [types field=&#039;residence-from&#039; style=&#039;text&#039; format=&#039;Y&#039; item=&#039;@people-location.intermediary&#039;][/types] to [types field=&#039;residence-to&#039; style=&#039;text&#039; format=&#039;Y&#039; item=&#039;@people-location.intermediary&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-not-before) ) AND ( $(wpcf-not-after) )&quot;]&lt;li&gt;Residence Not Before [types field=&#039;not-before&#039; style=&#039;text&#039; format=&#039;Y&#039; item=&#039;@people-location.intermediary&#039;][/types] and Not After [types field=&#039;not-after&#039; style=&#039;text&#039; format=&#039;Y&#039; item=&#039;@people-location.intermediary&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+  
+&lt;/ul&gt;</post_content>
+            <post_title>Loop item in Who Lived In This Location</post_title>
+            <post_name>loop-item-in-who-lived-in-this-location</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>152</ID>
+            <post_content>&lt;ul class=&#039;list-unstyled&#039;&gt;
+  &lt;li&gt;&lt;strong&gt;[wpv-post-link item=&quot;@people-location.parent&quot;]&lt;/strong&gt;&lt;/li&gt;
+  [wpv-conditional if=&quot;( $(wpcf-residence-to) ) AND ( $(wpcf-residence-from) )&quot;]&lt;li&gt;Residence from [types field=&#039;residence-from&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] to [types field=&#039;residence-to&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-not-before) ) AND ( $(wpcf-not-after) )&quot;]&lt;li&gt;Residence Not Before [types field=&#039;not-before&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] and Not After [types field=&#039;not-after&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+&lt;/ul&gt;
+&lt;hr&gt;</post_content>
+            <post_title>Loop item in Who Lived Here Popup Map Marker Details</post_title>
+            <post_name>loop-item-in-who-lived-here-popup-map-marker-details</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>145</ID>
+            <post_content>&lt;div class=&quot;filter-map [types field=&#039;gender&#039; output=&#039;raw&#039; item=&#039;@people-location.parent&#039;][/types] [types field=&#039;roles&#039; output=&#039;raw&#039; separator=&#039; &#039; item=&#039;@people-location.parent&#039;][/types]&quot; data-marker=&#039;[wpv-post-id item=&quot;@people-location.child&quot;]&#039;
+     [wpv-conditional if=&quot;( $(wpcf-residence-to) )&quot;]data-resTo=&quot;[types field=&#039;residence-to&#039; output=&#039;raw&#039;][/types]&quot; [/wpv-conditional]
+     [wpv-conditional if=&quot;( $(wpcf-residence-from) )&quot;]data-resFrom=&quot;[types field=&#039;residence-from&#039; output=&#039;raw&#039;][/types]&quot; [/wpv-conditional]
+     [wpv-conditional if=&quot;( $(wpcf-not-before) )&quot;]data-notBefore=&quot;[types field=&#039;not-before&#039; output=&#039;raw&#039;][/types]&quot; [/wpv-conditional]
+     [wpv-conditional if=&quot;( $(wpcf-not-after) )&quot;]data-notAfter=&quot;[types field=&#039;not-after&#039; output=&#039;raw&#039;][/types]&quot;[/wpv-conditional]&gt;
+&lt;p&gt;[wpv-post-title item=&quot;@people-location.child&quot;]&lt;/p&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in List</post_title>
+            <post_name>loop-item-in-list</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>105</ID>
+            <post_content>&lt;div class=&quot;col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4 center&quot;&gt;
+  &lt;div class=&quot;h-500&quot;&gt;
+    &lt;img alt=&quot;&quot; class=&quot;img-responsive img-circle center-block profile-img-size&quot; src=&#039;[wpv-post-featured-image size=&quot;large&quot; output=&quot;url&quot;]&#039;&gt;
+    &lt;h3&gt;
+    [wpv-conditional if=&quot;( $(wpcf-personal-webpage) )&quot;]
+      &lt;a href=&quot;[types field=&#039;personal-webpage&#039; output=&#039;raw&#039;][/types]&quot;&gt;[wpv-post-title]&lt;/a&gt;
+    [/wpv-conditional]
+    [wpv-conditional if=&quot;( $(wpcf-personal-webpage) ne &#039;&#039; )&quot; evaluate=&quot;false&quot;]
+         [wpv-post-title]
+    [/wpv-conditional]
+    &lt;/h3&gt;
+    &lt;div class=&quot;description-wrapper&quot;&gt;
+      [wpv-post-body view_template=&quot;None&quot; length=&quot;155&quot;]
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in The Team</post_title>
+            <post_name>loop-item-in-the-team</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css>.profile-img-size {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}</template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>102</ID>
+            <post_content>&lt;li&gt;&lt;a href=&quot;#&quot; class=&#039;js-wpv-addon-maps-focus-map js-toolset-maps-open-infowindow-map-individual-marker-[wpv-post-id]&#039; data-map=&quot;individual&quot; data-marker=&#039;[wpv-post-id item=&quot;@people-location.child&quot;]&#039;&gt;
+  [wpv-conditional if=&quot;( $(wpcf-residence-from) )&quot;][types field=&#039;residence-from&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] -[/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-from) )&quot; evaluate=&quot;false&quot;][types field=&#039;not-before&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] -[/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-to) )&quot;][types field=&#039;residence-to&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-to) )&quot; evaluate=&quot;false&quot;][types field=&#039;not-after&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-2-start) )&quot;][types field=&#039;residence-2-start&#039; output=&#039;raw&#039;][/types] - [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-2-end))&quot;][types field=&#039;residence-2-end&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-3-start))&quot;][types field=&#039;residence-3-start&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] - [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-3-end))&quot;][types field=&#039;residence-3-end&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-4-start))&quot;][types field=&#039;residence-4-start&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] - [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-4-end))&quot;][types field=&#039;residence-4-end&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-5-start))&quot;][types field=&#039;residence-5-start&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] - [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-5-end))&quot;][types field=&#039;residence-5-end&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] | [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-6-start))&quot;][types field=&#039;residence-6-start&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] - [/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-residence-6-end))&quot;][types field=&#039;residence-6-end&#039; output=&#039;raw&#039; format=&#039;FIELD_NAME: FIELD_VALUE&#039;][/types] | [/wpv-conditional]
+  &lt;strong&gt;[wpv-post-title item=&quot;@people-location.child&quot;]&lt;/strong&gt;
+&lt;/a&gt;&lt;/li&gt;</post_content>
+            <post_title>Loop item in Where I lived</post_title>
+            <post_name>loop-item-in-where-i-lived</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>82</ID>
+            <post_content></post_content>
+            <post_title>Loop item in Locations</post_title>
+            <post_name>loop-item-in-locations</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>77</ID>
+            <post_content>[wpv-conditional if=&quot;( $(wpcf-current-google-address) ne &#039;&#039; ) AND ( $(wpcf-current-google-address) ne &#039;NA&#039; ) AND ( $(wpcf-current-google-address) ne &#039;?&#039; )&quot;]
+[wpv-map-marker map_id=&#039;map&#039; marker_id=&#039;[wpv-post-id]&#039; marker_title=&quot;[wpv-post-title]&quot; id=&quot;$posttype&quot; marker_icon=&#039;//victorians.ucalgary.ca/wp-content/plugins/toolset-maps/resources/images/markers/Home.png&#039; marker_field=&#039;wpcf-current-google-address&#039;]
+&lt;h4&gt;[wpv-post-title]&lt;/h4&gt;
+&lt;hr&gt;
+&lt;p&gt;[wpv-view name=&quot;who-lived-here-popup-map-marker-details&quot;]&lt;/p&gt;
+[/wpv-map-marker]
+[/wpv-conditional]
+</post_content>
+            <post_title>Loop item in Map</post_title>
+            <post_name>loop-item-in-map</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+        <view-template>
+            <ID>52</ID>
+            <post_content>&lt;ul class=&#039;list-unstyled&#039;&gt;
+  &lt;li&gt;[wpv-post-link item=&quot;@people-location.parent&quot;]&lt;/li&gt;
+  [wpv-conditional if=&quot;( $(wpcf-residence-to) ) AND ( $(wpcf-residence-from) )&quot;]&lt;li&gt;Residence from [types field=&#039;residence-from&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] to [types field=&#039;residence-to&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+  [wpv-conditional if=&quot;( $(wpcf-not-before) ) AND ( $(wpcf-not-after) )&quot;]&lt;li&gt;Residence Not Before [types field=&#039;not-before&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types] and Not After [types field=&#039;not-after&#039; style=&#039;text&#039; format=&#039;Y&#039;][/types]&lt;/li&gt;[/wpv-conditional]
+&lt;/ul&gt;</post_content>
+            <post_title>Loop item in Where you lived</post_title>
+            <post_name>loop-item-in-where-you-lived</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+    </view-templates>
+    <settings>
+        <wpv_bootstrap_version>1</wpv_bootstrap_version>
+        <wpv_debug_mode>0</wpv_debug_mode>
+        <wpv_debug_mode_type>full</wpv_debug_mode_type>
+        <wpv_map_plugin>1</wpv_map_plugin>
+        <wpv_show_hidden_fields></wpv_show_hidden_fields>
+        <wpv_saved_auto_detected_framework></wpv_saved_auto_detected_framework>
+        <wpv_codemirror_autoresize></wpv_codemirror_autoresize>
+        <wpv_enable_pagination_manage_history>1</wpv_enable_pagination_manage_history>
+        <wpv_enable_parametric_search_manage_history>1</wpv_enable_parametric_search_manage_history>
+        <support_spaces_in_meta_filters>1</support_spaces_in_meta_filters>
+        <allow_views_wp_widgets_in_elementor>1</allow_views_wp_widgets_in_elementor>
+        <default_user_editor>basic</default_user_editor>
+        <manage_meta_transient_method>cron</manage_meta_transient_method>
+    </settings>
+</views>
