@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+        <hide_standard_custom_fields_metabox>show</hide_standard_custom_fields_metabox>
+        <postmeta_unfiltered_html>on</postmeta_unfiltered_html>
+        <usermeta_unfiltered_html>on</usermeta_unfiltered_html>
+    </settings>
+    <groups>
+        <group>
+            <ID>48</ID>
+            <post_content></post_content>
+            <post_title>Our Team Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>,our-team,</_wp_types_group_post_types>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,team-title,team-member-position,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>fa05ef803ab64117aadc2c9feba2a140</hash>
+            <checksum>fa05ef803ab64117aadc2c9feba2a140</checksum>
+            <__types_id>our-team-custom-fields</__types_id>
+            <__types_title>Our Team Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>47</ID>
+            <post_content></post_content>
+            <post_title>Home Page Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>all</_wp_types_group_post_types>
+                <_wp_types_group_templates>,page-home.php,</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,banner-button-content,banner-button-url,first-coloured-brick-title,first-coloured-brick-content,first-coloured-brick-button-content,first-coloured-brick-button-url,second-coloured-brick-title,second-coloured-brick-content,second-coloured-brick-button-content,second-coloured-brick-url,about-section-title,about-section-content,team-section-title,</_wp_types_group_fields>
+            </meta>
+            <hash>5a9716c8e9009470b90a3106768bbe95</hash>
+            <checksum>5a9716c8e9009470b90a3106768bbe95</checksum>
+            <__types_id>home-page-custom-fields</__types_id>
+            <__types_title>Home Page Custom Fields</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>banner-button-url</id>
+            <slug>banner-button-url</slug>
+            <type>url</type>
+            <name>Banner Button Url</name>
+            <description></description>
+            <data>
+                <slug-pre-save>banner-button-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>banner-button-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-banner-button-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>banner-button-url</__types_id>
+            <__types_title>Banner Button Url</__types_title>
+            <hash>6d89be5c6950d2099192e3508c72137b</hash>
+            <checksum>6d89be5c6950d2099192e3508c72137b</checksum>
+        </field>
+        <field>
+            <id>first-coloured-brick-title</id>
+            <slug>first-coloured-brick-title</slug>
+            <type>textfield</type>
+            <name>First Coloured Brick Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>first-coloured-brick-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>first-coloured-brick-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-first-coloured-brick-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>first-coloured-brick-title</__types_id>
+            <__types_title>First Coloured Brick Title</__types_title>
+            <hash>1e4154c60d73b3723c2b11533d7e6079</hash>
+            <checksum>1e4154c60d73b3723c2b11533d7e6079</checksum>
+        </field>
+        <field>
+            <id>first-coloured-brick-content</id>
+            <slug>first-coloured-brick-content</slug>
+            <type>textarea</type>
+            <name>First Coloured Brick Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>first-coloured-brick-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>first-coloured-brick-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-first-coloured-brick-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>first-coloured-brick-content</__types_id>
+            <__types_title>First Coloured Brick Content</__types_title>
+            <hash>566791e985c8958ee3a796279eb64552</hash>
+            <checksum>566791e985c8958ee3a796279eb64552</checksum>
+        </field>
+        <field>
+            <id>first-coloured-brick-button-content</id>
+            <slug>first-coloured-brick-button-content</slug>
+            <type>textfield</type>
+            <name>First Coloured Brick Button Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>first-coloured-brick-button-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>first-coloured-brick-button-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-first-coloured-brick-button-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>first-coloured-brick-button-content</__types_id>
+            <__types_title>First Coloured Brick Button Content</__types_title>
+            <hash>275dafc781bb90302210cc2f9a7b0531</hash>
+            <checksum>275dafc781bb90302210cc2f9a7b0531</checksum>
+        </field>
+        <field>
+            <id>first-coloured-brick-button-url</id>
+            <slug>first-coloured-brick-button-url</slug>
+            <type>url</type>
+            <name>First Coloured Brick Button Url</name>
+            <description></description>
+            <data>
+                <slug-pre-save>first-coloured-brick-button-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>first-coloured-brick-button-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-first-coloured-brick-button-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>first-coloured-brick-button-url</__types_id>
+            <__types_title>First Coloured Brick Button Url</__types_title>
+            <hash>1f670916f70af14d9d0c9185d4786af8</hash>
+            <checksum>1f670916f70af14d9d0c9185d4786af8</checksum>
+        </field>
+        <field>
+            <id>second-coloured-brick-title</id>
+            <slug>second-coloured-brick-title</slug>
+            <type>textfield</type>
+            <name>Second Coloured Brick Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>second-coloured-brick-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>second-coloured-brick-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-second-coloured-brick-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>second-coloured-brick-title</__types_id>
+            <__types_title>Second Coloured Brick Title</__types_title>
+            <hash>8c83008cf8f1b3cb0881706b09d5c027</hash>
+            <checksum>8c83008cf8f1b3cb0881706b09d5c027</checksum>
+        </field>
+        <field>
+            <id>second-coloured-brick-content</id>
+            <slug>second-coloured-brick-content</slug>
+            <type>textarea</type>
+            <name>Second Coloured Brick Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>second-coloured-brick-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>second-coloured-brick-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-second-coloured-brick-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>second-coloured-brick-content</__types_id>
+            <__types_title>Second Coloured Brick Content</__types_title>
+            <hash>ee8c2264207fe5215277b7bec012fb2d</hash>
+            <checksum>ee8c2264207fe5215277b7bec012fb2d</checksum>
+        </field>
+        <field>
+            <id>second-coloured-brick-button-content</id>
+            <slug>second-coloured-brick-button-content</slug>
+            <type>textfield</type>
+            <name>Second Coloured Brick Button Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>second-coloured-brick-button-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>second-coloured-brick-button-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-second-coloured-brick-button-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>second-coloured-brick-button-content</__types_id>
+            <__types_title>Second Coloured Brick Button Content</__types_title>
+            <hash>b3918330bd996dd073ccd04100bd79e8</hash>
+            <checksum>b3918330bd996dd073ccd04100bd79e8</checksum>
+        </field>
+        <field>
+            <id>second-coloured-brick-url</id>
+            <slug>second-coloured-brick-url</slug>
+            <type>url</type>
+            <name>Second Coloured Brick Url</name>
+            <description></description>
+            <data>
+                <slug-pre-save>second-coloured-brick-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>second-coloured-brick-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-second-coloured-brick-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>second-coloured-brick-url</__types_id>
+            <__types_title>Second Coloured Brick Url</__types_title>
+            <hash>59ad1ec3be6bdaf5e8ba59e1060d2204</hash>
+            <checksum>59ad1ec3be6bdaf5e8ba59e1060d2204</checksum>
+        </field>
+        <field>
+            <id>about-section-title</id>
+            <slug>about-section-title</slug>
+            <type>textfield</type>
+            <name>About Section Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>about-section-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>about-section-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-about-section-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>about-section-title</__types_id>
+            <__types_title>About Section Title</__types_title>
+            <hash>d73a4148f2c970dbf9df750f18f16ad8</hash>
+            <checksum>d73a4148f2c970dbf9df750f18f16ad8</checksum>
+        </field>
+        <field>
+            <id>about-section-content</id>
+            <slug>about-section-content</slug>
+            <type>textarea</type>
+            <name>About Section Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>about-section-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>about-section-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-about-section-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>about-section-content</__types_id>
+            <__types_title>About Section Content</__types_title>
+            <hash>5d9c5a990e508640089752f33e2f8bdf</hash>
+            <checksum>5d9c5a990e508640089752f33e2f8bdf</checksum>
+        </field>
+        <field>
+            <id>team-section-title</id>
+            <slug>team-section-title</slug>
+            <type>textfield</type>
+            <name>Team Section Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>team-section-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>team-section-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-team-section-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>team-section-title</__types_id>
+            <__types_title>Team Section Title</__types_title>
+            <hash>5de967fbea8d06342ca356c0ea4ca7d6</hash>
+            <checksum>5de967fbea8d06342ca356c0ea4ca7d6</checksum>
+        </field>
+        <field>
+            <id>team-title</id>
+            <slug>team-title</slug>
+            <type>textfield</type>
+            <name>Team Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>team-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>team-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-team-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>team-title</__types_id>
+            <__types_title>Team Title</__types_title>
+            <hash>676261d09b776a1512f15d98a7486a5c</hash>
+            <checksum>676261d09b776a1512f15d98a7486a5c</checksum>
+        </field>
+        <field>
+            <id>team-member-position</id>
+            <slug>team-member-position</slug>
+            <type>textfield</type>
+            <name>Team Member Position</name>
+            <description></description>
+            <data>
+                <slug-pre-save>team-member-position</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>team-member-position</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-team-member-position</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>team-member-position</__types_id>
+            <__types_title>Team Member Position</__types_title>
+            <hash>2c2ef68ea5287d93a6e04e22eebe9189</hash>
+            <checksum>2c2ef68ea5287d93a6e04e22eebe9189</checksum>
+        </field>
+        <field>
+            <id>banner-button-content</id>
+            <slug>banner-button-content</slug>
+            <type>textfield</type>
+            <name>Banner Button Content</name>
+            <description></description>
+            <data>
+                <slug-pre-save>banner-button-content</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>banner-button-content</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-banner-button-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>banner-button-content</__types_id>
+            <__types_title>Banner Button Content</__types_title>
+            <hash>5a1c888e57c300ea82d617858608453c</hash>
+            <checksum>5a1c888e57c300ea82d617858608453c</checksum>
+        </field>
+        <field>
+            <id>first-colours-brick-button-content</id>
+            <slug>first-colours-brick-button-content</slug>
+            <type>textfield</type>
+            <name>First Colours Brick Button Content</name>
+            <description></description>
+            <data>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <submit-key>textfield-638940137</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-first-colours-brick-button-content</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>first-colours-brick-button-content</__types_id>
+            <__types_title>First Colours Brick Button Content</__types_title>
+            <hash>2b988d579153d3552d919db91a5ed371</hash>
+            <checksum>2b988d579153d3552d919db91a5ed371</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1562868511</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <wpcf-post-type>our-team</wpcf-post-type>
+            <icon>admin-users</icon>
+            <labels>
+                <name>Our Team Members</name>
+                <singular_name>Our Team</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>our-team</slug>
+            <editor>classic</editor>
+            <description></description>
+            <public>public</public>
+            <menu_position>5--wpcf-add-menu-after--edit.php</menu_position>
+            <supports>
+                <title>1</title>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <is_repeating_field_group></is_repeating_field_group>
+            <is_intermediary_post_type></is_intermediary_post_type>
+            <id>our-team</id>
+            <__types_id>our-team</__types_id>
+            <__types_title>Our Team Members</__types_title>
+            <hash>e9be544252e39b426068975d3a6d8179</hash>
+            <checksum>e9be544252e39b426068975d3a6d8179</checksum>
+        </type>
+    </types>
+    <taxonomies>
+        <taxonomy>
+            <name>category</name>
+            <label>Categories</label>
+            <labels>
+                <name>Categories</name>
+                <singular_name>Category</singular_name>
+                <search_items>Search Categories</search_items>
+                <popular_items></popular_items>
+                <all_items>All Categories</all_items>
+                <parent_item>Parent Category</parent_item>
+                <parent_item_colon>Parent Category:</parent_item_colon>
+                <edit_item>Edit Category</edit_item>
+                <view_item>View Category</view_item>
+                <update_item>Update Category</update_item>
+                <add_new_item>Add New Category</add_new_item>
+                <new_item_name>New Category Name</new_item_name>
+                <separate_items_with_commas></separate_items_with_commas>
+                <add_or_remove_items></add_or_remove_items>
+                <choose_from_most_used></choose_from_most_used>
+                <not_found>No categories found.</not_found>
+                <no_terms>No categories</no_terms>
+                <items_list_navigation>Categories list navigation</items_list_navigation>
+                <items_list>Categories list</items_list>
+                <most_used>Most Used</most_used>
+                <back_to_items>&amp;larr; Back to Categories</back_to_items>
+                <menu_name>Categories</menu_name>
+                <name_admin_bar>category</name_admin_bar>
+            </labels>
+            <description></description>
+            <public>1</public>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <show_ui>1</show_ui>
+            <show_in_menu>1</show_in_menu>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <show_in_quick_edit>1</show_in_quick_edit>
+            <show_admin_column>1</show_admin_column>
+            <meta_box_cb>post_categories_meta_box</meta_box_cb>
+            <cap>
+                <manage_terms>manage_categories</manage_terms>
+                <edit_terms>edit_categories</edit_terms>
+                <delete_terms>delete_categories</delete_terms>
+                <assign_terms>assign_categories</assign_terms>
+            </cap>
+            <rewrite>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+                <ep_mask>512</ep_mask>
+                <slug>category</slug>
+            </rewrite>
+            <query_var>category_name</query_var>
+            <update_count_callback></update_count_callback>
+            <show_in_rest>1</show_in_rest>
+            <rest_base>categories</rest_base>
+            <rest_controller_class>WP_REST_Terms_Controller</rest_controller_class>
+            <_builtin>1</_builtin>
+            <slug>category</slug>
+            <supports>
+                <__types_cpt_supports_post>1</__types_cpt_supports_post>
+            </supports>
+            <id>category</id>
+            <__types_id>category</__types_id>
+            <__types_title>Categories</__types_title>
+            <checksum>747805c08b1713dc989d725f605b7617</checksum>
+        </taxonomy>
+        <taxonomy>
+            <name>post_tag</name>
+            <label>Tags</label>
+            <labels>
+                <name>Tags</name>
+                <singular_name>Tag</singular_name>
+                <search_items>Search Tags</search_items>
+                <popular_items>Popular Tags</popular_items>
+                <all_items>All Tags</all_items>
+                <parent_item></parent_item>
+                <parent_item_colon></parent_item_colon>
+                <edit_item>Edit Tag</edit_item>
+                <view_item>View Tag</view_item>
+                <update_item>Update Tag</update_item>
+                <add_new_item>Add New Tag</add_new_item>
+                <new_item_name>New Tag Name</new_item_name>
+                <separate_items_with_commas>Separate tags with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove tags</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used tags</choose_from_most_used>
+                <not_found>No tags found.</not_found>
+                <no_terms>No tags</no_terms>
+                <items_list_navigation>Tags list navigation</items_list_navigation>
+                <items_list>Tags list</items_list>
+                <most_used>Most Used</most_used>
+                <back_to_items>&amp;larr; Back to Tags</back_to_items>
+                <menu_name>Tags</menu_name>
+                <name_admin_bar>post_tag</name_admin_bar>
+            </labels>
+            <description></description>
+            <public>1</public>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical></hierarchical>
+            <show_ui>1</show_ui>
+            <show_in_menu>1</show_in_menu>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <show_in_quick_edit>1</show_in_quick_edit>
+            <show_admin_column>1</show_admin_column>
+            <meta_box_cb>post_tags_meta_box</meta_box_cb>
+            <cap>
+                <manage_terms>manage_post_tags</manage_terms>
+                <edit_terms>edit_post_tags</edit_terms>
+                <delete_terms>delete_post_tags</delete_terms>
+                <assign_terms>assign_post_tags</assign_terms>
+            </cap>
+            <rewrite>
+                <with_front>1</with_front>
+                <hierarchical></hierarchical>
+                <ep_mask>1024</ep_mask>
+                <slug>tag</slug>
+            </rewrite>
+            <query_var>tag</query_var>
+            <update_count_callback></update_count_callback>
+            <show_in_rest>1</show_in_rest>
+            <rest_base>tags</rest_base>
+            <rest_controller_class>WP_REST_Terms_Controller</rest_controller_class>
+            <_builtin>1</_builtin>
+            <slug>post_tag</slug>
+            <supports>
+                <__types_cpt_supports_post>1</__types_cpt_supports_post>
+            </supports>
+            <id>post_tag</id>
+            <__types_id>post_tag</__types_id>
+            <__types_title>Tags</__types_title>
+            <checksum>026b349c4ede5d17a74428dee1647e84</checksum>
+        </taxonomy>
+    </taxonomies>
+</types>

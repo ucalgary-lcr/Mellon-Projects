@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views>
+    <site_url>https://smartcampus.ucalgary.ca</site_url>
+    <fileupload_url>https://smartcampus.ucalgary.ca/wp-content/uploads</fileupload_url>
+    <wpv_database_version>2080400</wpv_database_version>
+    <views>
+        <view>
+            <ID>49</ID>
+            <post_content>[wpv-filter-meta-html]
+[wpv-layout-meta-html]</post_content>
+            <post_title>Our Team Feed</post_title>
+            <post_name>our-team-feed</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpv_settings>
+                    <view-query-mode>normal</view-query-mode>
+                    <view_description></view_description>
+                    <view_purpose>full</view_purpose>
+                    <query_type>
+                        <state>posts</state>
+                    </query_type>
+                    <post_type_dont_include_current_page>1</post_type_dont_include_current_page>
+                    <taxonomy_hide_empty>1</taxonomy_hide_empty>
+                    <taxonomy_include_non_empty_decendants>1</taxonomy_include_non_empty_decendants>
+                    <taxonomy_pad_counts>1</taxonomy_pad_counts>
+                    <orderby>post_date</orderby>
+                    <order>ASC</order>
+                    <orderby_second></orderby_second>
+                    <order_second>DESC</order_second>
+                    <taxonomy_orderby>name</taxonomy_orderby>
+                    <taxonomy_order>DESC</taxonomy_order>
+                    <users_orderby>user_login</users_orderby>
+                    <users_order>ASC</users_order>
+                    <limit>-1</limit>
+                    <offset>0</offset>
+                    <taxonomy_limit>-1</taxonomy_limit>
+                    <taxonomy_offset>0</taxonomy_offset>
+                    <users_limit>-1</users_limit>
+                    <users_offset>0</users_offset>
+                    <pagination>
+                        <type>disabled</type>
+                        <posts_per_page>10</posts_per_page>
+                        <effect>fade</effect>
+                        <duration>500</duration>
+                        <speed>5</speed>
+                        <preload_images>1</preload_images>
+                        <cache_pages>1</cache_pages>
+                        <preload_pages>1</preload_pages>
+                        <pre_reach>1</pre_reach>
+                        <spinner>default</spinner>
+                        <spinner_image>https://smartcampus.ucalgary.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif</spinner_image>
+                        <spinner_image_uploaded></spinner_image_uploaded>
+                        <callback_next></callback_next>
+                    </pagination>
+                    <filter_meta_html>[wpv-filter-start hide=&quot;false&quot;]
+[wpv-filter-controls][/wpv-filter-controls]
+[wpv-filter-end]</filter_meta_html>
+                    <filter_meta_html_css></filter_meta_html_css>
+                    <filter_meta_html_js></filter_meta_html_js>
+                    <layout_meta_html_state>
+                        <html>on</html>
+                        <css>off</css>
+                        <js>off</js>
+                        <img>off</img>
+                    </layout_meta_html_state>
+                    <layout_meta_html_css></layout_meta_html_css>
+                    <layout_meta_html_js></layout_meta_html_js>
+                    <sections-show-hide>
+                        <content-selection>on</content-selection>
+                        <query-options>on</query-options>
+                        <ordering>on</ordering>
+                        <limit-offset>on</limit-offset>
+                        <content-filter>on</content-filter>
+                        <pagination>on</pagination>
+                        <filter-extra-parametric>on</filter-extra-parametric>
+                        <filter-extra>on</filter-extra>
+                        <layout-extra>on</layout-extra>
+                        <content>on</content>
+                    </sections-show-hide>
+                    <metasections-hep-show-hide>
+                        <wpv-query-help>off</wpv-query-help>
+                        <wpv-layout-help>off</wpv-layout-help>
+                        <wpv-filter-help>off</wpv-filter-help>
+                    </metasections-hep-show-hide>
+                    <orderby_as></orderby_as>
+                    <taxonomy_orderby_as></taxonomy_orderby_as>
+                    <users_orderby_as></users_orderby_as>
+                    <post_types>
+                        <post_type>our-team</post_type>
+                    </post_types>
+                    <taxonomy_types>
+                        <taxonomy_type>category</taxonomy_type>
+                    </taxonomy_types>
+                    <roles_types>
+                        <roles_type>administrator</roles_type>
+                    </roles_types>
+                </_wpv_settings>
+                <_wpv_layout_settings>
+                    <additional_js></additional_js>
+                    <layout_meta_html>[wpv-layout-start]
+	[wpv-items-found]
+	&lt;!-- wpv-loop-start --&gt;
+	&lt;wpv-loop&gt;
+		[wpv-post-body view_template=&quot;loop-item-in-our-team-feed&quot;]
+	&lt;/wpv-loop&gt;
+	&lt;!-- wpv-loop-end --&gt;
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		&lt;strong&gt;[wpml-string context=&quot;wpv-views&quot;]No items found[/wpml-string]&lt;/strong&gt;
+	[/wpv-no-items-found]
+[wpv-layout-end]
+</layout_meta_html>
+                    <included_ct_ids>Loop item in Our Team Feed</included_ct_ids>
+                    <style>unformatted</style>
+                    <table_cols>2</table_cols>
+                    <bootstrap_grid_cols>1</bootstrap_grid_cols>
+                    <bootstrap_grid_container></bootstrap_grid_container>
+                    <bootstrap_grid_row_class>1</bootstrap_grid_row_class>
+                    <bootstrap_grid_individual></bootstrap_grid_individual>
+                    <include_field_names></include_field_names>
+                    <real_fields>
+                        <real_field-0>[wpv-post-title]</real_field-0>
+                    </real_fields>
+                    <list_separator>,</list_separator>
+                </_wpv_layout_settings>
+                <_view_loop_template>Loop item in Our Team Feed</_view_loop_template>
+            </meta>
+        </view>
+    </views>
+    <view-templates>
+        <view-template>
+            <ID>50</ID>
+            <post_content>&lt;div class=&quot;col-sm-6 col-md-3 col-lg-3 center mb-4&quot;&gt;
+  &lt;h4&gt;[types field=&#039;team-title&#039;][/types]&lt;/h4&gt;
+  &lt;div class=&quot;description-wrapper&quot;&gt;
+    &lt;p&gt;[wpv-post-title]&lt;/p&gt;
+    &lt;p&gt;&lt;small&gt;[types field=&#039;team-member-position&#039;][/types]&lt;/small&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</post_content>
+            <post_title>Loop item in Our Team Feed</post_title>
+            <post_name>loop-item-in-our-team-feed</post_name>
+            <post_excerpt></post_excerpt>
+            <post_type>view-template</post_type>
+            <post_status>publish</post_status>
+            <template_mode>raw_mode</template_mode>
+            <template_extra_css></template_extra_css>
+            <template_extra_js></template_extra_js>
+            <template_description></template_description>
+        </view-template>
+    </view-templates>
+    <settings>
+        <wpv_bootstrap_version>1</wpv_bootstrap_version>
+        <wpv_debug_mode></wpv_debug_mode>
+        <wpv_debug_mode_type>compact</wpv_debug_mode_type>
+        <wpv_map_plugin>0</wpv_map_plugin>
+        <wpv_show_hidden_fields></wpv_show_hidden_fields>
+        <wpv_saved_auto_detected_framework></wpv_saved_auto_detected_framework>
+        <wpv_codemirror_autoresize></wpv_codemirror_autoresize>
+        <wpv_enable_pagination_manage_history>1</wpv_enable_pagination_manage_history>
+        <wpv_enable_parametric_search_manage_history>1</wpv_enable_parametric_search_manage_history>
+        <support_spaces_in_meta_filters>1</support_spaces_in_meta_filters>
+        <allow_views_wp_widgets_in_elementor>1</allow_views_wp_widgets_in_elementor>
+        <default_user_editor>basic</default_user_editor>
+        <manage_meta_transient_method>cron</manage_meta_transient_method>
+    </settings>
+</views>
