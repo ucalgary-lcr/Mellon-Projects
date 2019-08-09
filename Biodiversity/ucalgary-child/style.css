@@ -1,0 +1,88 @@
+/*
+ Theme Name:   ucalgary child
+ Theme URI:    https://library.ucalgary.ca
+ Description:  Ucalgary Child Theme
+ Author:       University of Calgary
+ Author URI:   http://example.com
+ Template:     ucalgary
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  ucalgary-child
+*/
+/**** Navigation Styles *****/
+.nav > li {padding-left: 25px;left: -40px;}
+.dropdown-menu {left: 25px;min-width: 90px;}
+/**** Tabcordion Styles for Program *****/
+.brick.tasks .tabs-left .tab-content{vertical-align: top !important;position:relative !important;}
+.brick.tasks .tab-content > .tab-pane{vertical-align: top !important;position:relative !important;top: 0 !important;-webkit-transform: none !important;-ms-transform: none !important;transform: none !important;padding: 0 30px 0 0 !important;}
+.brick.tasks .tabs-left, .brick.tasks .tabs-right{height: auto !important;}
+.brick.tasks .tabs-left > .nav-tabs {float: left;border-right: none !important;}
+.brick.tasks .tabs-left .tab-content {float: left;border-left: 3px solid #e30c00;border-right: none !important;}
+.brick.tasks .nav-tabs > li {padding-left: 0;left: 0;}
+.pagination > li > a, .pagination > li > span {position: relative;float: left;padding: 6px 12px;line-height: 1.42857143;text-decoration: none;color: #337ab7;background-color: transparent;border: none;margin-left: -1px;}
+.pagination > li > a, .pagination > li > span:hover {background-color: transparent;}
+/**** General spacing styles ****/
+.padding-xs-top{padding-top:15px !important;}
+.margin-sm-top{margin-top:25px !important;}
+.margin-sm-bottom{margin-bottom:25px !important;}
+.margin-md-top{margin-top:50px !important;}
+.margin-md-bottom{margin-bottom:50px;}
+.padding-md-top{padding-top:50px !important;}
+.padding-md-bottom{padding-bottom:50px !important;}
+.margin-lg-top{margin-top:75px !important;}
+.margin-lg-bottom{margin-bottom:75px !important;}
+.margin-xl-top{margin-top:100px !important;}
+.margin-xl-bottom{margin-bottom:100px !important;}
+.model-margin-top{margin-top: 150px !important;}
+.vcenter {display: inline-block;vertical-align: middle !important;float: none;padding-top: 13%;}
+.blog-images{width:750px !important; height:300px !important; object-fit: cover;}
+.brick.tasks .nav-tabs > li {white-space: inherit;}
+.borderless td, .borderless th {border: none;}
+.brick.accordion .panel-heading {background-color: #e30c00;border-radius: 0;}
+.profile-img-size {width: 300px;height: 300px;object-fit: cover;}
+.home-img-size {height: 200px;object-fit: cover;}
+label{width:100% !important;font-weight: normal;}
+.brick.chicklets .chicklet > h4 a {position: absolute; left: 0; bottom: 30px; width: 100%; margin: 0; padding: 0 30px; text-align: center; text-shadow: 0px 0px 10px black;color: #ffffff; opacity: 1;transition: opacity 0.5s ease-in-out;font-size:1.5em;}
+.brick.chicklets .chicklet > div .chickletTitle {margin-top: 0; margin-bottom: 15px;font-size:1.5em;}
+.portfolio-item {margin-bottom: 30px;}
+.card-img-top {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);}
+.card-img-top-sm {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);object-fit: cover;object-position: center;height: 140px;}
+.card-img-top-lg {width: 100%;border-top-left-radius: calc(.25rem - 1px);border-top-right-radius: calc(.25rem - 1px);object-fit: cover;object-position: center;height: 200px;}
+.h-100 {height:100%;min-height: 100px !important;}
+.h-200{height:100%;min-height: 200px !important;}
+.h-300 {height:100%;min-height: 300px !important;}
+.h-400 {height:100%;min-height: 400px !important;}
+.h-450 {height:100%;min-height: 450px !important;}
+.h-500 {height:100%;min-height: 500px !important;}
+.h-600 {height:100%;min-height: 600px !important;}
+.h-700 {height:100%;min-height: 700px !important;}
+.card {position: relative;display: -ms-flexbox;display: flex; -ms-flex-direction: column;flex-direction: column;min-width: 0;word-wrap: break-word;background-color: #fff;background-clip: border-box;border: 1px solid rgba(0,0,0,.125);border-radius: .25rem;}
+.card-body {-ms-flex: 1 1 auto;flex: 1 1 auto;padding: 1.25rem;}
+.card-title {margin-bottom: .75rem;}
+.card-footer {padding: .75rem 1.25rem;background-color: rgba(0,0,0,.03);border-top: 1px solid rgba(0,0,0,.125);}
+.card-footer:last-child {border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);}
+.mr-auto, .mx-auto {margin-right: auto!important;}
+.ml-auto, .mx-auto {margin-left: auto!important;}
+.d-block {display: block!important;}
+.pagination {margin-bottom: 30px;}
+.expland-modal-btn {position: absolute; z-index: 999; bottom: 5px; align-items: center; text-align: center; right: 20px;}
+.modal {top: 155px;}
+.event-background{background-color: #F7F7F7; margin-bottom: 25px; min-height: 510px;}
+.event-padding{padding: 10px 10px 10px 10px;}
+.event-readmore-btn{bottom: 0 !important;position: absolute;}
+.blog-images{width:100% !important; height:300px !important; object-fit: cover;}
+.event-img-size {width: 100% !important;height: 250px !important;object-fit: cover;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {z-index: 2;color: #fff;cursor: default;background-color: #ff170a !important;border-color: #ff170a !important;}
+.pagination>.active>a, .pagination>.active>span{z-index: 2;color: #fff;cursor: default;background-color: #e30c00 !important;border-color: #e30c00 !important;}
+.pagination>li>a, .pagination>li>span {position: relative;float: left;padding: 6px 12px;margin-left: -1px;line-height: 1.42857143;color: #e30c00;text-decoration: none;background-color: #fff;border: 1px solid #e30c00;}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {z-index: 3;color: #fff;background-color: #ff170a;border-color: #ff170a;}
+.hvr-float {
+    display: inline-block;vertical-align: middle;-webkit-transform: perspective(1px) translateZ(0);transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);-webkit-transition-duration: 0.3s;transition-duration: 0.3s;-webkit-transition-property: transform;
+    transition-property: transform;-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {-webkit-transform: translateY(-8px);transform: translateY(-8px);}
+
+
+@media (min-width: 768px){.modal-dialog {width: 1150px;margin: 30px auto;}}

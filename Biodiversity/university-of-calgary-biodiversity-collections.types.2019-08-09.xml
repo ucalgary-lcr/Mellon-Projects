@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>1</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>by_types</help_box>
+        <hide_standard_custom_fields_metabox>show</hide_standard_custom_fields_metabox>
+        <postmeta_unfiltered_html>on</postmeta_unfiltered_html>
+        <usermeta_unfiltered_html>on</usermeta_unfiltered_html>
+    </settings>
+    <groups>
+        <group>
+            <ID>672</ID>
+            <post_content></post_content>
+            <post_title>Digital Collection Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>all</_wp_types_group_post_types>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,digital-collection-url,</_wp_types_group_fields>
+            </meta>
+            <hash>47100a83b00ed547e3b2706bcb7cc8fb</hash>
+            <checksum>47100a83b00ed547e3b2706bcb7cc8fb</checksum>
+            <__types_id>digital-collection-custom-fields</__types_id>
+            <__types_title>Digital Collection Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>663</ID>
+            <post_content></post_content>
+            <post_title>Home Page | Database Collections Section</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>all</_wp_types_group_post_types>
+                <_wp_types_group_templates>,page-home.php,</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,collection-one-image,collection-one-url,collection-one-title,collection-one-description,collection-two-image,collection-two-url,collection-two-title,collection-two-description,collection-three-image,collection-three-url,collection-three-title,collection-three-description,collection-four-image,collection-four-url,collection-four-title,collection-four-description,collection-five-image,collection-five-url,collection-five-title,collection-five-description,collection-six-image,collection-six-url,collection-six-title,collection-six-description,</_wp_types_group_fields>
+            </meta>
+            <hash>2b6532063e8f31b14ec61f8d2a18db9c</hash>
+            <checksum>2b6532063e8f31b14ec61f8d2a18db9c</checksum>
+            <__types_id>home-page-database-collections-section</__types_id>
+            <__types_title>Home Page | Database Collections Section</__types_title>
+        </group>
+        <group>
+            <ID>662</ID>
+            <post_content></post_content>
+            <post_title>Home Page | Video Banner</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>all</_wp_types_group_post_types>
+                <_wp_types_group_templates>,page-home.php,</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,video-banner-upload,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>a1aab217e4ca817c47895ea541fe7f73</hash>
+            <checksum>a1aab217e4ca817c47895ea541fe7f73</checksum>
+            <__types_id>home-page-video-banner</__types_id>
+            <__types_title>Home Page | Video Banner</__types_title>
+        </group>
+        <group>
+            <ID>649</ID>
+            <post_content></post_content>
+            <post_title>Home Page | Colour Banner Content</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>all</_wp_types_group_post_types>
+                <_wp_types_group_templates>,page-home.php,</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,our-collection-main-title,red-banner-title-one,red-banner-description-one,red-banner-title-two,red-banner-description-two,red-banner-title-three,red-banner-description-three,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>dd1202e69d1803c7ee15bafe9d4fd88e</hash>
+            <checksum>dd1202e69d1803c7ee15bafe9d4fd88e</checksum>
+            <__types_id>home-page-colour-banner-content</__types_id>
+            <__types_title>Home Page | Colour Banner Content</__types_title>
+        </group>
+        <group>
+            <ID>329</ID>
+            <post_content></post_content>
+            <post_title>Team Member Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>,team-member,</_wp_types_group_post_types>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,sort-by,job-title,email,phone-number,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>1043117a66544a14568a8c9afd40a011</hash>
+            <checksum>1043117a66544a14568a8c9afd40a011</checksum>
+            <__types_id>team-member-custom-fields</__types_id>
+            <__types_title>Team Member Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>279</ID>
+            <post_content></post_content>
+            <post_title>Bio Design Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>,designs,</_wp_types_group_post_types>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,bio-inspired-design-term,category,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>fa4fcc54ba7596192255c91f3c67fbe6</hash>
+            <checksum>fa4fcc54ba7596192255c91f3c67fbe6</checksum>
+            <__types_id>bio-design-fields</__types_id>
+            <__types_title>Bio Design Fields</__types_title>
+        </group>
+        <group>
+            <ID>122</ID>
+            <post_content></post_content>
+            <post_title>Resource Fileds</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wp_types_group_post_types>,resource,</_wp_types_group_post_types>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_fields>,resource-category,resource-keywords,</_wp_types_group_fields>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+            </meta>
+            <hash>cc51aee70dc323ef6286d6df63ccfad9</hash>
+            <checksum>cc51aee70dc323ef6286d6df63ccfad9</checksum>
+            <__types_id>resource-fileds</__types_id>
+            <__types_title>Resource Fileds</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <id>featured-resource</id>
+            <slug>featured-resource</slug>
+            <type>checkbox</type>
+            <name>Featured Resource</name>
+            <description></description>
+            <data>
+                <slug-pre-save>featured-resource</slug-pre-save>
+                <set_value>1</set_value>
+                <save_empty>no</save_empty>
+                <display>db</display>
+                <display_value_not_selected></display_value_not_selected>
+                <display_value_selected></display_value_selected>
+                <custom_use></custom_use>
+                <submit-key>featured-resource</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-featured-resource</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>featured-resource</__types_id>
+            <__types_title>Featured Resource</__types_title>
+            <hash>92f6532b50c6c20e2a98378ef6bf63a8</hash>
+            <checksum>92f6532b50c6c20e2a98378ef6bf63a8</checksum>
+        </field>
+        <field>
+            <id>email</id>
+            <slug>email</slug>
+            <type>email</type>
+            <name>Email</name>
+            <description></description>
+            <data>
+                <slug-pre-save>email</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>email</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-email</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>email</__types_id>
+            <__types_title>Email</__types_title>
+            <hash>9b35e1d5b220da420fc656d9c0c98ecb</hash>
+            <checksum>9b35e1d5b220da420fc656d9c0c98ecb</checksum>
+        </field>
+        <field>
+            <id>phone-number</id>
+            <slug>phone-number</slug>
+            <type>phone</type>
+            <name>Phone Number</name>
+            <description></description>
+            <data>
+                <slug-pre-save>phone-number</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>phone-number</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-phone-number</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>phone-number</__types_id>
+            <__types_title>Phone Number</__types_title>
+            <hash>350c080a53e61a7a424f687af07dbc20</hash>
+            <checksum>350c080a53e61a7a424f687af07dbc20</checksum>
+        </field>
+        <field>
+            <id>job-title</id>
+            <slug>job-title</slug>
+            <type>textfield</type>
+            <name>Job Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>job-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>job-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-job-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>job-title</__types_id>
+            <__types_title>Job Title</__types_title>
+            <hash>f153c8a1cfd9cd2b8968b07050e7f84e</hash>
+            <checksum>f153c8a1cfd9cd2b8968b07050e7f84e</checksum>
+        </field>
+        <field>
+            <id>bio-inspired-design-term</id>
+            <slug>bio-inspired-design-term</slug>
+            <type>select</type>
+            <name>Bio Inspired Design Term</name>
+            <description></description>
+            <data>
+                <slug-pre-save>bio-inspired-design-term</slug-pre-save>
+                <options>
+                    <wpcf-fields-select-option-b2f3fdfbfa44d2b1b23c6e7c6372927e-1>
+                        <title>Move or Stay Put</title>
+                        <value>1</value>
+                    </wpcf-fields-select-option-b2f3fdfbfa44d2b1b23c6e7c6372927e-1>
+                    <wpcf-fields-select-option-5e71f6339f2038cc67cd673215a0501e-1>
+                        <title>Modify</title>
+                        <value>2</value>
+                    </wpcf-fields-select-option-5e71f6339f2038cc67cd673215a0501e-1>
+                    <wpcf-fields-select-option-fd7c7fa4eef92dc663343ee915d70949-1>
+                        <title>Make</title>
+                        <value>3</value>
+                    </wpcf-fields-select-option-fd7c7fa4eef92dc663343ee915d70949-1>
+                    <wpcf-fields-select-option-1fbec9e2fd77de4d05d384af47803eb6-1>
+                        <title>Break Down</title>
+                        <value>4</value>
+                    </wpcf-fields-select-option-1fbec9e2fd77de4d05d384af47803eb6-1>
+                    <wpcf-fields-select-option-8327f253834bd0e5ffa0e5fad80fd6bc-1>
+                        <title>Protect from Harm</title>
+                        <value>5</value>
+                    </wpcf-fields-select-option-8327f253834bd0e5ffa0e5fad80fd6bc-1>
+                    <wpcf-fields-select-option-e036bbd94af3483b479ef8abfe4940e0-1>
+                        <title>Maintain Community</title>
+                        <value>6</value>
+                    </wpcf-fields-select-option-e036bbd94af3483b479ef8abfe4940e0-1>
+                    <wpcf-fields-select-option-9ff58d950813548b9e1dcf28e270c027-1>
+                        <title>Process Information</title>
+                        <value>7</value>
+                    </wpcf-fields-select-option-9ff58d950813548b9e1dcf28e270c027-1>
+                    <wpcf-fields-select-option-78bc1cb617aa4e540e4260dc6b3e0ec4-1>
+                        <title>Distribute Resources</title>
+                        <value>8</value>
+                    </wpcf-fields-select-option-78bc1cb617aa4e540e4260dc6b3e0ec4-1>
+                    <default>no-default</default>
+                </options>
+                <custom_use></custom_use>
+                <submit-key>bio-inspired-design-term</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-bio-inspired-design-term</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>bio-inspired-design-term</__types_id>
+            <__types_title>Bio Inspired Design Term</__types_title>
+            <hash>4d48cefbca943a533f459eb841e97bbb</hash>
+            <checksum>4d48cefbca943a533f459eb841e97bbb</checksum>
+        </field>
+        <field>
+            <id>category</id>
+            <slug>category</slug>
+            <type>select</type>
+            <name>Category</name>
+            <description></description>
+            <data>
+                <slug-pre-save>category</slug-pre-save>
+                <options>
+                    <wpcf-fields-select-option-e40bb5022dafea689b57fcc88fc923aa-1>
+                        <title>Invertebrate</title>
+                        <value>1</value>
+                    </wpcf-fields-select-option-e40bb5022dafea689b57fcc88fc923aa-1>
+                    <wpcf-fields-select-option-fc69ab0bae9fd7891478bd5aaae51b47-1>
+                        <title>Vertebrate</title>
+                        <value>2</value>
+                    </wpcf-fields-select-option-fc69ab0bae9fd7891478bd5aaae51b47-1>
+                    <wpcf-fields-select-option-7b168dcda27fd9edc27c01e7c43ed494-1>
+                        <title>Herbarium</title>
+                        <value>3</value>
+                    </wpcf-fields-select-option-7b168dcda27fd9edc27c01e7c43ed494-1>
+                    <default>no-default</default>
+                </options>
+                <custom_use></custom_use>
+                <submit-key>category</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-category</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>category</__types_id>
+            <__types_title>Category</__types_title>
+            <hash>5369e8dd982022e48c9229b55f440fcf</hash>
+            <checksum>5369e8dd982022e48c9229b55f440fcf</checksum>
+        </field>
+        <field>
+            <id>resource-category</id>
+            <slug>resource-category</slug>
+            <type>select</type>
+            <name>Category</name>
+            <description></description>
+            <data>
+                <slug-pre-save>resource-category</slug-pre-save>
+                <options>
+                    <wpcf-fields-select-option-7bfc47ad01a3cae314779af2449917be-1>
+                        <title>Invertebrate</title>
+                        <value>1</value>
+                    </wpcf-fields-select-option-7bfc47ad01a3cae314779af2449917be-1>
+                    <wpcf-fields-select-option-7813c7743a010189754ab65c3fc85377-1>
+                        <title>Vertebrate</title>
+                        <value>2</value>
+                    </wpcf-fields-select-option-7813c7743a010189754ab65c3fc85377-1>
+                    <wpcf-fields-select-option-21fa1534fe8f65d0d39956d88a2bfe8c-1>
+                        <title>Herbarium</title>
+                        <value>3</value>
+                    </wpcf-fields-select-option-21fa1534fe8f65d0d39956d88a2bfe8c-1>
+                    <default>no-default</default>
+                </options>
+                <custom_use></custom_use>
+                <submit-key>resource-category</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-resource-category</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>resource-category</__types_id>
+            <__types_title>Category</__types_title>
+            <hash>2a64628f79426cb9f74cd028d0b68f26</hash>
+            <checksum>2a64628f79426cb9f74cd028d0b68f26</checksum>
+        </field>
+        <field>
+            <id>sort-by</id>
+            <slug>sort-by</slug>
+            <type>textfield</type>
+            <name>Sort By</name>
+            <description></description>
+            <data>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <submit-key>textfield-1783053751</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-sort-by</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>sort-by</__types_id>
+            <__types_title>Sort By</__types_title>
+            <hash>e9c2d4939efde82dec3855c1a37cd584</hash>
+            <checksum>e9c2d4939efde82dec3855c1a37cd584</checksum>
+        </field>
+        <field>
+            <id>resource-keywords</id>
+            <slug>resource-keywords</slug>
+            <type>select</type>
+            <name>Resource Keywords</name>
+            <description></description>
+            <data>
+                <options>
+                    <wpcf-fields-select-option-d5c5b7829ba7f4493d2220b51ea37a91-1>
+                        <title>Move or Stay Put</title>
+                        <value>1</value>
+                    </wpcf-fields-select-option-d5c5b7829ba7f4493d2220b51ea37a91-1>
+                    <wpcf-fields-select-option-07728e620469f1635d9d7c7331c292b4-1>
+                        <title>Modify</title>
+                        <value>2</value>
+                    </wpcf-fields-select-option-07728e620469f1635d9d7c7331c292b4-1>
+                    <wpcf-fields-select-option-8b139ecd4fa8ab8035905860fe8cc4dd-1>
+                        <title>Make</title>
+                        <value>3</value>
+                    </wpcf-fields-select-option-8b139ecd4fa8ab8035905860fe8cc4dd-1>
+                    <wpcf-fields-select-option-52b787f58f7545879060f26797d14279-1>
+                        <title>Break Down</title>
+                        <value>4</value>
+                    </wpcf-fields-select-option-52b787f58f7545879060f26797d14279-1>
+                    <wpcf-fields-select-option-dc05b9d8fdc5ca0af469d09e0180c44e-1>
+                        <title>Protect from Harm</title>
+                        <value>5</value>
+                    </wpcf-fields-select-option-dc05b9d8fdc5ca0af469d09e0180c44e-1>
+                    <wpcf-fields-select-option-c8ad6aa5153a17d3bee26bd6d5f3b803-1>
+                        <title>Maintain Community</title>
+                        <value>6</value>
+                    </wpcf-fields-select-option-c8ad6aa5153a17d3bee26bd6d5f3b803-1>
+                    <wpcf-fields-select-option-ce273b624c5dffd9c132b0fbc0142f67-1>
+                        <title>Process Information</title>
+                        <value>7</value>
+                    </wpcf-fields-select-option-ce273b624c5dffd9c132b0fbc0142f67-1>
+                    <wpcf-fields-select-option-eacaaffcb15fbce360504ec30d8cf0e0-1>
+                        <title>Distribute Resources</title>
+                        <value>8</value>
+                    </wpcf-fields-select-option-eacaaffcb15fbce360504ec30d8cf0e0-1>
+                    <default>no-default</default>
+                </options>
+                <submit-key>select-617440923</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-resource-keywords</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>resource-keywords</__types_id>
+            <__types_title>Resource Keywords</__types_title>
+            <hash>0bbe9724c0c9d0365eb6ba7dc126ff97</hash>
+            <checksum>0bbe9724c0c9d0365eb6ba7dc126ff97</checksum>
+        </field>
+        <field>
+            <id>red-banner-description-one</id>
+            <slug>red-banner-description-one</slug>
+            <type>textarea</type>
+            <name>Red Banner Description One</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-description-one</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>Approximately 1.45 million specimens, of which about 1.25 million are in alcohol and 200,000 are dry pinned insects. The Alberta bee collection is growing and is currently the third largest collection in Canada.</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-description-one</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-description-one</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-description-one</__types_id>
+            <__types_title>Red Banner Description One</__types_title>
+            <hash>f135aff8472f0d13d2c0bf280e59d8a9</hash>
+            <checksum>f135aff8472f0d13d2c0bf280e59d8a9</checksum>
+        </field>
+        <field>
+            <id>red-banner-description-two</id>
+            <slug>red-banner-description-two</slug>
+            <type>textarea</type>
+            <name>Red Banner Description Two</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-description-two</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>Over 100,000 specimens of vascular plants and much smaller holdings of non-vascular plants, fungi, and lichens. The emphasis of this collection is on western and northern Canada as well as southern Alberta, in addition to non-vascular and vascular plant specimens from permafrost areas around the world.</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-description-two</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-description-two</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-description-two</__types_id>
+            <__types_title>Red Banner Description Two</__types_title>
+            <hash>ef985aa49af300f4c1486b666aa8afb4</hash>
+            <checksum>ef985aa49af300f4c1486b666aa8afb4</checksum>
+        </field>
+        <field>
+            <id>red-banner-description-three</id>
+            <slug>red-banner-description-three</slug>
+            <type>textarea</type>
+            <name>Red Banner Description Three</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-description-three</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>About 8000 specimens, of extant fish, amphibians, reptiles, birds, and mammals. It has strong osteology (bones) focus with smaller holdings of skins, taxidermic mounts, and alcohol-preserved material, with a good representation of the Alberta fauna. In addition, there is a significant collection of vertebrate fossils.</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-description-three</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-description-three</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-description-three</__types_id>
+            <__types_title>Red Banner Description Three</__types_title>
+            <hash>3e360c03057bac05c3e599491ce84ba7</hash>
+            <checksum>3e360c03057bac05c3e599491ce84ba7</checksum>
+        </field>
+        <field>
+            <id>red-banner-title-one</id>
+            <slug>red-banner-title-one</slug>
+            <type>textfield</type>
+            <name>Red Banner Title One</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-title-one</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>Invertebrate</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-title-one</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-title-one</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-title-one</__types_id>
+            <__types_title>Red Banner Title One</__types_title>
+            <hash>459e8870d2ded97c05c167dd44bb706a</hash>
+            <checksum>459e8870d2ded97c05c167dd44bb706a</checksum>
+        </field>
+        <field>
+            <id>red-banner-title-two</id>
+            <slug>red-banner-title-two</slug>
+            <type>textfield</type>
+            <name>Red Banner Title Two</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-title-two</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>Vertebrate</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-title-two</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-title-two</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-title-two</__types_id>
+            <__types_title>Red Banner Title Two</__types_title>
+            <hash>85660f76bf9508d61513353b41ef5263</hash>
+            <checksum>85660f76bf9508d61513353b41ef5263</checksum>
+        </field>
+        <field>
+            <id>red-banner-title-three</id>
+            <slug>red-banner-title-three</slug>
+            <type>textfield</type>
+            <name>Red Banner Title Three</name>
+            <description></description>
+            <data>
+                <slug-pre-save>red-banner-title-three</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value>Herbarium</user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>red-banner-title-three</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-red-banner-title-three</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>red-banner-title-three</__types_id>
+            <__types_title>Red Banner Title Three</__types_title>
+            <hash>ab62719b2ffa6464bfd291d87368244a</hash>
+            <checksum>ab62719b2ffa6464bfd291d87368244a</checksum>
+        </field>
+        <field>
+            <id>video-banner-upload</id>
+            <slug>video-banner-upload</slug>
+            <type>video</type>
+            <name>Video Banner Upload</name>
+            <description></description>
+            <data>
+                <slug-pre-save>video-banner-upload</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>video-banner-upload</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the video file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-video-banner-upload</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>video-banner-upload</__types_id>
+            <__types_title>Video Banner Upload</__types_title>
+            <hash>11f71d597e1490ba57b3318befe9efec</hash>
+            <checksum>11f71d597e1490ba57b3318befe9efec</checksum>
+        </field>
+        <field>
+            <id>our-collection-main-title</id>
+            <slug>our-collection-main-title</slug>
+            <type>textfield</type>
+            <name>Our Collection Main Title</name>
+            <description></description>
+            <data>
+                <placeholder></placeholder>
+                <user_default_value>Our Collection</user_default_value>
+                <repetitive>0</repetitive>
+                <submit-key>textfield-850493718</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-our-collection-main-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>our-collection-main-title</__types_id>
+            <__types_title>Our Collection Main Title</__types_title>
+            <hash>1b4dd9b90b632352bfdc60ad0d591a9a</hash>
+            <checksum>1b4dd9b90b632352bfdc60ad0d591a9a</checksum>
+        </field>
+        <field>
+            <id>collection-one-image</id>
+            <slug>collection-one-image</slug>
+            <type>image</type>
+            <name>Collection One Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-one-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-one-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-one-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-one-image</__types_id>
+            <__types_title>Collection One Image</__types_title>
+            <hash>2747a603c6bebaa3253ae363643526a9</hash>
+            <checksum>2747a603c6bebaa3253ae363643526a9</checksum>
+        </field>
+        <field>
+            <id>collection-one-title</id>
+            <slug>collection-one-title</slug>
+            <type>textfield</type>
+            <name>Collection One Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-one-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-one-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-one-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-one-title</__types_id>
+            <__types_title>Collection One Title</__types_title>
+            <hash>5926f7935c94c67a805e547df7b6e113</hash>
+            <checksum>5926f7935c94c67a805e547df7b6e113</checksum>
+        </field>
+        <field>
+            <id>collection-one-description</id>
+            <slug>collection-one-description</slug>
+            <type>textarea</type>
+            <name>Collection One Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-one-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-one-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-one-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-one-description</__types_id>
+            <__types_title>Collection One Description</__types_title>
+            <hash>f8b8c3171c686a1eb83e5b32ce976ef9</hash>
+            <checksum>f8b8c3171c686a1eb83e5b32ce976ef9</checksum>
+        </field>
+        <field>
+            <id>collection-two-image</id>
+            <slug>collection-two-image</slug>
+            <type>image</type>
+            <name>Collection Two Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-two-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-two-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-two-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-two-image</__types_id>
+            <__types_title>Collection Two Image</__types_title>
+            <hash>85d0cc94433cc03ad85b617560c2cc35</hash>
+            <checksum>85d0cc94433cc03ad85b617560c2cc35</checksum>
+        </field>
+        <field>
+            <id>collection-two-title</id>
+            <slug>collection-two-title</slug>
+            <type>textfield</type>
+            <name>Collection Two Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-two-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-two-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-two-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-two-title</__types_id>
+            <__types_title>Collection Two Title</__types_title>
+            <hash>fea2974dbb30e79c207d7e9e8043e7f3</hash>
+            <checksum>fea2974dbb30e79c207d7e9e8043e7f3</checksum>
+        </field>
+        <field>
+            <id>collection-two-description</id>
+            <slug>collection-two-description</slug>
+            <type>textarea</type>
+            <name>Collection Two Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-two-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-two-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-two-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-two-description</__types_id>
+            <__types_title>Collection Two Description</__types_title>
+            <hash>940b2f875742d747d490460957d41efc</hash>
+            <checksum>940b2f875742d747d490460957d41efc</checksum>
+        </field>
+        <field>
+            <id>collection-three-image</id>
+            <slug>collection-three-image</slug>
+            <type>image</type>
+            <name>Collection Three Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-three-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-three-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-three-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-three-image</__types_id>
+            <__types_title>Collection Three Image</__types_title>
+            <hash>feab70b3123e868a2b02047a9d2deead</hash>
+            <checksum>feab70b3123e868a2b02047a9d2deead</checksum>
+        </field>
+        <field>
+            <id>collection-three-title</id>
+            <slug>collection-three-title</slug>
+            <type>textfield</type>
+            <name>Collection Three Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-three-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-three-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-three-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-three-title</__types_id>
+            <__types_title>Collection Three Title</__types_title>
+            <hash>6692101faca128a006da05d28f69422a</hash>
+            <checksum>6692101faca128a006da05d28f69422a</checksum>
+        </field>
+        <field>
+            <id>collection-three-description</id>
+            <slug>collection-three-description</slug>
+            <type>textarea</type>
+            <name>Collection Three Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-three-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-three-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-three-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-three-description</__types_id>
+            <__types_title>Collection Three Description</__types_title>
+            <hash>56dbfbc51201d4816e1900ebe75ac5c2</hash>
+            <checksum>56dbfbc51201d4816e1900ebe75ac5c2</checksum>
+        </field>
+        <field>
+            <id>collection-four-image</id>
+            <slug>collection-four-image</slug>
+            <type>image</type>
+            <name>Collection Four Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-four-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-four-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-four-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-four-image</__types_id>
+            <__types_title>Collection Four Image</__types_title>
+            <hash>53e709dfed71b51520c729335ad94c94</hash>
+            <checksum>53e709dfed71b51520c729335ad94c94</checksum>
+        </field>
+        <field>
+            <id>collection-four-title</id>
+            <slug>collection-four-title</slug>
+            <type>textfield</type>
+            <name>Collection Four Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-four-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-four-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-four-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-four-title</__types_id>
+            <__types_title>Collection Four Title</__types_title>
+            <hash>6d372c694dca0cae6cb8689845edcf7c</hash>
+            <checksum>6d372c694dca0cae6cb8689845edcf7c</checksum>
+        </field>
+        <field>
+            <id>collection-four-description</id>
+            <slug>collection-four-description</slug>
+            <type>textarea</type>
+            <name>Collection Four Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-four-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-four-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-four-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-four-description</__types_id>
+            <__types_title>Collection Four Description</__types_title>
+            <hash>6796773acc6e3e62b766b46260cf08b8</hash>
+            <checksum>6796773acc6e3e62b766b46260cf08b8</checksum>
+        </field>
+        <field>
+            <id>collection-five-image</id>
+            <slug>collection-five-image</slug>
+            <type>image</type>
+            <name>Collection Five Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-five-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-five-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-five-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-five-image</__types_id>
+            <__types_title>Collection Five Image</__types_title>
+            <hash>a59ac58a0d9bf713d66f45423a090132</hash>
+            <checksum>a59ac58a0d9bf713d66f45423a090132</checksum>
+        </field>
+        <field>
+            <id>collection-five-title</id>
+            <slug>collection-five-title</slug>
+            <type>textfield</type>
+            <name>Collection Five Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-five-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-five-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-five-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-five-title</__types_id>
+            <__types_title>Collection Five Title</__types_title>
+            <hash>be512e9b8d508dc4ccb6aabde2f8f74f</hash>
+            <checksum>be512e9b8d508dc4ccb6aabde2f8f74f</checksum>
+        </field>
+        <field>
+            <id>collection-five-description</id>
+            <slug>collection-five-description</slug>
+            <type>textarea</type>
+            <name>Collection Five Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-five-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-five-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-five-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-five-description</__types_id>
+            <__types_title>Collection Five Description</__types_title>
+            <hash>4f79d60939e406e8470979955bc2b46b</hash>
+            <checksum>4f79d60939e406e8470979955bc2b46b</checksum>
+        </field>
+        <field>
+            <id>collection-six-image</id>
+            <slug>collection-six-image</slug>
+            <type>image</type>
+            <name>Collection Six Image</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-six-image</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-six-image</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+                <validate>
+                    <url2>
+                        <active>1</active>
+                        <message>Please enter a valid URL address pointing to the image file.</message>
+                        <suppress_for_cred>1</suppress_for_cred>
+                    </url2>
+                </validate>
+            </data>
+            <meta_key>wpcf-collection-six-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-six-image</__types_id>
+            <__types_title>Collection Six Image</__types_title>
+            <hash>cec7315d4ebb5f6282197197cfda2c2e</hash>
+            <checksum>cec7315d4ebb5f6282197197cfda2c2e</checksum>
+        </field>
+        <field>
+            <id>collection-six-title</id>
+            <slug>collection-six-title</slug>
+            <type>textfield</type>
+            <name>Collection Six Title</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-six-title</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-six-title</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-six-title</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-six-title</__types_id>
+            <__types_title>Collection Six Title</__types_title>
+            <hash>54a07e10fb59843ba7b651b0586f49d7</hash>
+            <checksum>54a07e10fb59843ba7b651b0586f49d7</checksum>
+        </field>
+        <field>
+            <id>collection-six-description</id>
+            <slug>collection-six-description</slug>
+            <type>textarea</type>
+            <name>Collection Six Description</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-six-description</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-six-description</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-six-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-six-description</__types_id>
+            <__types_title>Collection Six Description</__types_title>
+            <hash>734b650e20d492996f89ace01503342b</hash>
+            <checksum>734b650e20d492996f89ace01503342b</checksum>
+        </field>
+        <field>
+            <id>collection-one-url</id>
+            <slug>collection-one-url</slug>
+            <type>url</type>
+            <name>Collection One URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-one-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-one-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-one-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-one-url</__types_id>
+            <__types_title>Collection One URL</__types_title>
+            <hash>fc62deafac54bc14b322776e8d22ffe5</hash>
+            <checksum>fc62deafac54bc14b322776e8d22ffe5</checksum>
+        </field>
+        <field>
+            <id>collection-two-url</id>
+            <slug>collection-two-url</slug>
+            <type>url</type>
+            <name>Collection Two URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-two-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-two-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-two-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-two-url</__types_id>
+            <__types_title>Collection Two URL</__types_title>
+            <hash>2f14b6081e64fca49231faa30fe02ec6</hash>
+            <checksum>2f14b6081e64fca49231faa30fe02ec6</checksum>
+        </field>
+        <field>
+            <id>collection-three-url</id>
+            <slug>collection-three-url</slug>
+            <type>url</type>
+            <name>Collection Three URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-three-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-three-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-three-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-three-url</__types_id>
+            <__types_title>Collection Three URL</__types_title>
+            <hash>e60855b1f850786749b6c5cbf351c43b</hash>
+            <checksum>e60855b1f850786749b6c5cbf351c43b</checksum>
+        </field>
+        <field>
+            <id>collection-four-url</id>
+            <slug>collection-four-url</slug>
+            <type>url</type>
+            <name>Collection Four URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-four-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-four-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-four-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-four-url</__types_id>
+            <__types_title>Collection Four URL</__types_title>
+            <hash>4df6d2871a73b45c3b99820c9cf6c2bd</hash>
+            <checksum>4df6d2871a73b45c3b99820c9cf6c2bd</checksum>
+        </field>
+        <field>
+            <id>collection-five-url</id>
+            <slug>collection-five-url</slug>
+            <type>url</type>
+            <name>Collection Five URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-five-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-five-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-five-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-five-url</__types_id>
+            <__types_title>Collection Five URL</__types_title>
+            <hash>d67a803311ae14d3e390d4d4e22184b8</hash>
+            <checksum>d67a803311ae14d3e390d4d4e22184b8</checksum>
+        </field>
+        <field>
+            <id>collection-six-url</id>
+            <slug>collection-six-url</slug>
+            <type>url</type>
+            <name>Collection Six URL</name>
+            <description></description>
+            <data>
+                <slug-pre-save>collection-six-url</slug-pre-save>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <custom_use></custom_use>
+                <submit-key>collection-six-url</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-collection-six-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>collection-six-url</__types_id>
+            <__types_title>Collection Six URL</__types_title>
+            <hash>5df9d2dd62cfaf9d07a0397d6058242c</hash>
+            <checksum>5df9d2dd62cfaf9d07a0397d6058242c</checksum>
+        </field>
+        <field>
+            <id>digital-collection-url</id>
+            <slug>digital-collection-url</slug>
+            <type>url</type>
+            <name>Digital Collection URL</name>
+            <description></description>
+            <data>
+                <placeholder></placeholder>
+                <user_default_value></user_default_value>
+                <repetitive>0</repetitive>
+                <submit-key>url-67685614</submit-key>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-digital-collection-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>digital-collection-url</__types_id>
+            <__types_title>Digital Collection URL</__types_title>
+            <hash>59064373f69043686db564a6a193fcfc</hash>
+            <checksum>59064373f69043686db564a6a193fcfc</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <icon>list-view</icon>
+            <labels>
+                <name>Resources</name>
+                <singular_name>Resource</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>resource</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <wpcf-post-type></wpcf-post-type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1548962202</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <is_repeating_field_group></is_repeating_field_group>
+            <is_intermediary_post_type></is_intermediary_post_type>
+            <id>resource</id>
+            <__types_id>resource</__types_id>
+            <__types_title>Resources</__types_title>
+            <hash>d55114d97e8f2b1b11ebc22a7062e113</hash>
+            <checksum>d55114d97e8f2b1b11ebc22a7062e113</checksum>
+        </type>
+        <type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1553795759</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <wpcf-post-type>designs</wpcf-post-type>
+            <icon>admin-appearance</icon>
+            <labels>
+                <name>Bio Inspired Designs</name>
+                <singular_name>Bio Inspired Design</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>designs</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position>25--wpcf-add-menu-after--edit.php?post_type=resource</menu_position>
+            <custom-field-group>
+                <group_279>279</group_279>
+            </custom-field-group>
+            <supports>
+                <title>1</title>
+                <editor>1</editor>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <is_repeating_field_group></is_repeating_field_group>
+            <is_intermediary_post_type></is_intermediary_post_type>
+            <id>designs</id>
+            <__types_id>designs</__types_id>
+            <__types_title>Bio Inspired Designs</__types_title>
+            <hash>05fc46aa8d59abd2a9863d03497902d6</hash>
+            <checksum>05fc46aa8d59abd2a9863d03497902d6</checksum>
+        </type>
+        <type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1553804595</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <wpcf-post-type>team-member</wpcf-post-type>
+            <icon>admin-users</icon>
+            <labels>
+                <name>Team Members</name>
+                <singular_name>Team Member</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>team-member</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <custom-field-group>
+                <group_329>329</group_329>
+            </custom-field-group>
+            <supports>
+                <title>1</title>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <is_repeating_field_group></is_repeating_field_group>
+            <is_intermediary_post_type></is_intermediary_post_type>
+            <id>team-member</id>
+            <__types_id>team-member</__types_id>
+            <__types_title>Team Members</__types_title>
+            <hash>92095a6d1bd8619b579d749ca51b9e78</hash>
+            <checksum>92095a6d1bd8619b579d749ca51b9e78</checksum>
+        </type>
+        <type>
+            <icon>align-center</icon>
+            <labels>
+                <name>Digital Collections</name>
+                <singular_name>Digital Collection</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+                <enter_title_here>Enter title here</enter_title_here>
+            </labels>
+            <slug>digital-collection</slug>
+            <editor>classic</editor>
+            <description></description>
+            <public>public</public>
+            <menu_position>25--wpcf-add-menu-after--edit.php?post_type=designs</menu_position>
+            <custom-field-group>
+                <group_649>649</group_649>
+            </custom-field-group>
+            <supports>
+                <title>1</title>
+                <excerpt>1</excerpt>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <has_archive_slug></has_archive_slug>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <rest_base></rest_base>
+            <wpcf-post-type></wpcf-post-type>
+            <_builtin></_builtin>
+            <_toolset_edit_last>1561475909</_toolset_edit_last>
+            <_wpcf_author_id>1</_wpcf_author_id>
+            <is_repeating_field_group></is_repeating_field_group>
+            <is_intermediary_post_type></is_intermediary_post_type>
+            <id>digital-collection</id>
+            <__types_id>digital-collection</__types_id>
+            <__types_title>Digital Collections</__types_title>
+            <hash>fdec8cb7f7546c656e91811a9929caad</hash>
+            <checksum>fdec8cb7f7546c656e91811a9929caad</checksum>
+        </type>
+    </types>
+    <taxonomies>
+        <taxonomy>
+            <name>category</name>
+            <label>Categories</label>
+            <labels>
+                <name>Categories</name>
+                <singular_name>Category</singular_name>
+                <search_items>Search Categories</search_items>
+                <popular_items></popular_items>
+                <all_items>All Categories</all_items>
+                <parent_item>Parent Category</parent_item>
+                <parent_item_colon>Parent Category:</parent_item_colon>
+                <edit_item>Edit Category</edit_item>
+                <view_item>View Category</view_item>
+                <update_item>Update Category</update_item>
+                <add_new_item>Add New Category</add_new_item>
+                <new_item_name>New Category Name</new_item_name>
+                <separate_items_with_commas></separate_items_with_commas>
+                <add_or_remove_items></add_or_remove_items>
+                <choose_from_most_used></choose_from_most_used>
+                <not_found>No categories found.</not_found>
+                <no_terms>No categories</no_terms>
+                <items_list_navigation>Categories list navigation</items_list_navigation>
+                <items_list>Categories list</items_list>
+                <most_used>Most Used</most_used>
+                <back_to_items>&amp;larr; Back to Categories</back_to_items>
+                <menu_name>Categories</menu_name>
+                <name_admin_bar>category</name_admin_bar>
+            </labels>
+            <description></description>
+            <public>1</public>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <show_ui>1</show_ui>
+            <show_in_menu>1</show_in_menu>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <show_in_quick_edit>1</show_in_quick_edit>
+            <show_admin_column>1</show_admin_column>
+            <meta_box_cb>post_categories_meta_box</meta_box_cb>
+            <cap>
+                <manage_terms>manage_categories</manage_terms>
+                <edit_terms>edit_categories</edit_terms>
+                <delete_terms>delete_categories</delete_terms>
+                <assign_terms>assign_categories</assign_terms>
+            </cap>
+            <rewrite>
+                <with_front>1</with_front>
+                <hierarchical>1</hierarchical>
+                <ep_mask>512</ep_mask>
+                <slug>category</slug>
+            </rewrite>
+            <query_var>category_name</query_var>
+            <update_count_callback></update_count_callback>
+            <show_in_rest>1</show_in_rest>
+            <rest_base>categories</rest_base>
+            <rest_controller_class>WP_REST_Terms_Controller</rest_controller_class>
+            <_builtin>1</_builtin>
+            <slug>category</slug>
+            <supports>
+                <__types_cpt_supports_post>1</__types_cpt_supports_post>
+            </supports>
+            <id>category</id>
+            <__types_id>category</__types_id>
+            <__types_title>Categories</__types_title>
+            <checksum>747805c08b1713dc989d725f605b7617</checksum>
+        </taxonomy>
+        <taxonomy>
+            <name>post_tag</name>
+            <label>Tags</label>
+            <labels>
+                <name>Tags</name>
+                <singular_name>Tag</singular_name>
+                <search_items>Search Tags</search_items>
+                <popular_items>Popular Tags</popular_items>
+                <all_items>All Tags</all_items>
+                <parent_item></parent_item>
+                <parent_item_colon></parent_item_colon>
+                <edit_item>Edit Tag</edit_item>
+                <view_item>View Tag</view_item>
+                <update_item>Update Tag</update_item>
+                <add_new_item>Add New Tag</add_new_item>
+                <new_item_name>New Tag Name</new_item_name>
+                <separate_items_with_commas>Separate tags with commas</separate_items_with_commas>
+                <add_or_remove_items>Add or remove tags</add_or_remove_items>
+                <choose_from_most_used>Choose from the most used tags</choose_from_most_used>
+                <not_found>No tags found.</not_found>
+                <no_terms>No tags</no_terms>
+                <items_list_navigation>Tags list navigation</items_list_navigation>
+                <items_list>Tags list</items_list>
+                <most_used>Most Used</most_used>
+                <back_to_items>&amp;larr; Back to Tags</back_to_items>
+                <menu_name>Tags</menu_name>
+                <name_admin_bar>post_tag</name_admin_bar>
+            </labels>
+            <description></description>
+            <public>1</public>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical></hierarchical>
+            <show_ui>1</show_ui>
+            <show_in_menu>1</show_in_menu>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <show_tagcloud>1</show_tagcloud>
+            <show_in_quick_edit>1</show_in_quick_edit>
+            <show_admin_column>1</show_admin_column>
+            <meta_box_cb>post_tags_meta_box</meta_box_cb>
+            <cap>
+                <manage_terms>manage_post_tags</manage_terms>
+                <edit_terms>edit_post_tags</edit_terms>
+                <delete_terms>delete_post_tags</delete_terms>
+                <assign_terms>assign_post_tags</assign_terms>
+            </cap>
+            <rewrite>
+                <with_front>1</with_front>
+                <hierarchical></hierarchical>
+                <ep_mask>1024</ep_mask>
+                <slug>tag</slug>
+            </rewrite>
+            <query_var>tag</query_var>
+            <update_count_callback></update_count_callback>
+            <show_in_rest>1</show_in_rest>
+            <rest_base>tags</rest_base>
+            <rest_controller_class>WP_REST_Terms_Controller</rest_controller_class>
+            <_builtin>1</_builtin>
+            <slug>post_tag</slug>
+            <supports>
+                <__types_cpt_supports_post>1</__types_cpt_supports_post>
+            </supports>
+            <id>post_tag</id>
+            <__types_id>post_tag</__types_id>
+            <__types_title>Tags</__types_title>
+            <checksum>026b349c4ede5d17a74428dee1647e84</checksum>
+        </taxonomy>
+    </taxonomies>
+</types>
